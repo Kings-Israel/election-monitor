@@ -79,7 +79,6 @@ class UserController extends APIController
         }
     }
 
-
     /**
      * @param Request $request
      *
@@ -143,8 +142,6 @@ class UserController extends APIController
             return response()->json(['message' => 'Sorry, something went wrong!'], 422);
         }
     }
-
-
 
     /**
      * @param Request $request
