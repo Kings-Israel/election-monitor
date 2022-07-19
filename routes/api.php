@@ -48,7 +48,10 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
 
         Route::get('/user', 'UserController@index');
 
-
+        Route::get('/ward/progress', 'UserController@getWardProgress');
+        Route::get('/county/progress', 'UserController@getCountyProgress');
+        Route::get('/national/progress', 'UserController@getNationalProgress');
+        Route::get('/constituency/progress', 'UserController@getConstituencyProgress');
 
         Route::post('/user/update-avatar/{id}', 'UserController@updateAvatar');
         Route::post('/user/remove-avatar', 'UserController@removeAvatar');
@@ -84,6 +87,7 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
         Route::patch('/update-question/{id}', 'SurveyController@updateQuestion');
         Route::post('/delete-question', 'SurveyController@deleteQuestion');
 
+        Route::post('/question/answer', 'SurveyController@answerQuestion');
         Route::get('/fetch-answers', 'SurveyController@getAnswers');
         Route::get('/question/{id}/answers', 'SurveyController@getQuestionAnswers');
 
