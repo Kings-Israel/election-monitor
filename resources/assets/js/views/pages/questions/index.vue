@@ -178,15 +178,19 @@ export default {
 
     created() {
         this.loading = true;
-        axios.get('http://172.104.245.14/electionmonitor/api/v1/fetch-survey-questions')
-        // axios.get("../api/v1/fetch-survey-questions")
+        axios
+            .get(
+                "http://172.104.245.14/electionmonitor/api/v1/fetch-survey-questions"
+            )
+            // axios.get("../api/v1/fetch-survey-questions")
             .then((response) => {
-            this.loading = false;
-            for (let i = 0; i < response.data.data.length; i++) {
-                this.questions.push(response.data.data[i]);
-            }
-            this.searched = this.questions;
-        });
+                console.log(response.data.data);
+                this.loading = false;
+                for (let i = 0; i < response.data.data.length; i++) {
+                    this.questions.push(response.data.data[i]);
+                }
+                this.searched = this.questions;
+            });
     },
 
     methods: {
@@ -201,22 +205,6 @@ export default {
                 return formattedOptions;
             }
         },
-        getQuestions(page) {
-            this.loading = true;
-            if (typeof page === "undefined") {
-                page = 1;
-            }
-            // let url = helper.getFilterURL(this.filterAspirantForm);
-            axios.get('http://172.104.245.14/electionmonitor/api/v1/fetch-survey-questions')
-            // axios.get("../api/v1/fetch-survey-questions")
-                .then((response) => {
-                for (let i = 0; i < response.data.data.length; i++) {
-                    this.questions.push(response.data.data[i]);
-                }
-                this.searched = this.questions;
-                this.loading = false;
-            });
-        },
 
         deleteQuestion(question) {
             this.deleteDialog = true;
@@ -225,8 +213,12 @@ export default {
 
         performDelete() {
             this.loading = true;
-            axios.delete('http://172.104.245.14/electionmonitor/api/v1/delete-question/'+this.deleteQuestionID)
-            // axios.delete("../api/v1/delete-question/" + this.deleteQuestionID)
+            axios
+                .delete(
+                    "http://172.104.245.14/electionmonitor/api/v1/delete-question/" +
+                        this.deleteQuestionID
+                )
+                // axios.delete("../api/v1/delete-question/" + this.deleteQuestionID)
                 .then((response) => {
                     this.loading = false;
                     this.deleteDialog = true;
