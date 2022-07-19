@@ -184,7 +184,6 @@ export default {
             )
             // axios.get("../api/v1/fetch-survey-questions")
             .then((response) => {
-                console.log(response.data.data);
                 this.loading = false;
                 for (let i = 0; i < response.data.data.length; i++) {
                     this.questions.push(response.data.data[i]);

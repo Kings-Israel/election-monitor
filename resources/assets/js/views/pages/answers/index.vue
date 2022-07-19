@@ -122,7 +122,6 @@ export default {
             )
             // axios.get("../api/v1/fetch-answers")
             .then((response) => {
-                console.log(response.data.data);
                 this.loading = false;
                 for (let i = 0; i < response.data.data.length; i++) {
                     this.answers.push(response.data.data[i]);
