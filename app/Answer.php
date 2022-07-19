@@ -16,6 +16,13 @@ class Answer extends Model
     protected $table = 'answers';
 
     /**
+     * The attributes that aren't mass assignable.
+     *
+     * @var array
+     */
+    protected $guarded = [];
+
+    /**
      * Get the question that owns the Answer
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo

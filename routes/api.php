@@ -28,7 +28,6 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
         Route::post('/two-factor-auth/resend/{number}', 'AuthController@resendOTP');
     });
 
-    Route::get('/county/progress', 'UserController@getCountyProgress');
 
     Route::group(['middleware' => ['jwt.auth']], function () {
         Route::get('/auth/user', 'AuthController@getAuthUser');
