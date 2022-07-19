@@ -2554,7 +2554,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:36:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2570,7 +2570,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:37:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2586,7 +2586,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:38:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2602,7 +2602,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:39:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2618,7 +2618,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:40:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2634,7 +2634,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:41:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2650,7 +2650,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:42:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2666,10 +2666,10 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
-[2022-07-19 11:42:34] local.INFO: OTP code has been sent to {"Phone":"0707137687","Code":9875} 
-[2022-07-19 11:42:42] local.INFO: Valid OTP entered by {"Phone":{"phone":"+254707137687"}} 
-[2022-07-19 11:42:46] local.INFO: User has successfully loggedin! {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE2NTgyMzA5NjYsImV4cCI6MTY1ODIzNDU2NiwibmJmIjoxNjU4MjMwOTY2LCJqdGkiOiJMMVlZaXlHQVRVS0FWQ0hmIiwic3ViIjo4NiwicHJ2IjoiYjkxMjc5OTc4ZjExYWE3YmM1NjcwNDg3ZmZmMDFlMjI4MjUzZmU0OCJ9.oSfwxjcdbB1Ox030uvET3jki7j9CJXQ3qa1KkFU5gFY"} 
+"}
+[2022-07-19 11:42:34] local.INFO: OTP code has been sent to {"Phone":"0707137687","Code":9875}
+[2022-07-19 11:42:42] local.INFO: Valid OTP entered by {"Phone":{"phone":"+254707137687"}}
+[2022-07-19 11:42:46] local.INFO: User has successfully loggedin! {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE2NTgyMzA5NjYsImV4cCI6MTY1ODIzNDU2NiwibmJmIjoxNjU4MjMwOTY2LCJqdGkiOiJMMVlZaXlHQVRVS0FWQ0hmIiwic3ViIjo4NiwicHJ2IjoiYjkxMjc5OTc4ZjExYWE3YmM1NjcwNDg3ZmZmMDFlMjI4MjUzZmU0OCJ9.oSfwxjcdbB1Ox030uvET3jki7j9CJXQ3qa1KkFU5gFY"}
 [2022-07-19 11:43:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2685,7 +2685,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:44:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2701,7 +2701,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:45:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2717,7 +2717,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:46:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2733,7 +2733,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:47:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2749,7 +2749,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:48:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2765,7 +2765,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:49:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2781,7 +2781,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:50:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2797,7 +2797,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:51:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2813,7 +2813,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:52:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2829,7 +2829,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:53:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2845,7 +2845,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:54:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2861,7 +2861,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:55:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2877,7 +2877,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:56:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2893,7 +2893,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:57:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2909,7 +2909,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:58:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2925,7 +2925,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 11:59:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2941,7 +2941,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:00:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2957,7 +2957,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:01:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2973,7 +2973,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:02:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -2989,7 +2989,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:03:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -3005,7 +3005,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:04:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -3021,7 +3021,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:05:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -3037,7 +3037,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:06:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -3053,7 +3053,11 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
+<<<<<<< HEAD
+[2022-07-19 12:08:32] local.INFO: [{"id":12,"survey_id":1,"user_id":50,"answer":"gsag aff","question_id":5,"date_created":"2022-06-30 05:34:09","user":{"id":50,"first_name":"Deveint","last_name":"Admin","email":"mitchell.gilda@example.org","phone":"+254700073483","role":"Admin","gender":"Female","avatar":null,"allocated_area":"ABWAO PRIMARY SCHOOL,KISUMU","ward_prog":null,"const_prog":null,"national_prog":null,"county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"myLXhJ4MaY","status":"online","created_at":"2022-03-02T03:25:29.000000Z","updated_at":"2022-07-07T13:16:08.000000Z"},"question":null},{"id":13,"survey_id":1,"user_id":50,"answer":"afegbdsg dgdsg","question_id":3,"date_created":"2022-06-30 05:34:09","user":{"id":50,"first_name":"Deveint","last_name":"Admin","email":"mitchell.gilda@example.org","phone":"+254700073483","role":"Admin","gender":"Female","avatar":null,"allocated_area":"ABWAO PRIMARY SCHOOL,KISUMU","ward_prog":null,"const_prog":null,"national_prog":null,"county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"myLXhJ4MaY","status":"online","created_at":"2022-03-02T03:25:29.000000Z","updated_at":"2022-07-07T13:16:08.000000Z"},"question":null},{"id":14,"survey_id":1,"user_id":50,"answer":"gsagsagssg","question_id":8,"date_created":"2022-06-30 05:34:09","user":{"id":50,"first_name":"Deveint","last_name":"Admin","email":"mitchell.gilda@example.org","phone":"+254700073483","role":"Admin","gender":"Female","avatar":null,"allocated_area":"ABWAO PRIMARY SCHOOL,KISUMU","ward_prog":null,"const_prog":null,"national_prog":null,"county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"myLXhJ4MaY","status":"online","created_at":"2022-03-02T03:25:29.000000Z","updated_at":"2022-07-07T13:16:08.000000Z"},"question":null},{"id":15,"survey_id":1,"user_id":83,"answer":"Option 3","question_id":1,"date_created":"2022-06-30 22:25:17","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":null},{"id":16,"survey_id":1,"user_id":83,"answer":"Option 3","question_id":1,"date_created":"2022-06-30 22:37:07","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":null},{"id":17,"survey_id":1,"user_id":83,"answer":"Option 2","question_id":1,"date_created":"2022-06-30 22:41:10","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":null},{"id":18,"survey_id":1,"user_id":83,"answer":"Option 2","question_id":1,"date_created":"2022-06-30 22:41:44","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":null},{"id":19,"survey_id":1,"user_id":83,"answer":"Option 2","question_id":1,"date_created":"2022-06-30 22:41:57","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":null},{"id":20,"survey_id":1,"user_id":83,"answer":"[Checkbox label 2, Checkbox label 3, Checkbox label 4]","question_id":2,"date_created":"2022-06-30 22:57:26","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}},{"id":21,"survey_id":1,"user_id":83,"answer":"this is my answer to this question\nIt supports multiline. Am glad to answer it","question_id":4,"date_created":"2022-06-30 23:06:12","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":4,"question":"Sample question for the text field","frm_option":"","type":"textfield_s","survey_id":10,"date_created":"2020-11-10 13:34:21"}},{"id":22,"survey_id":1,"user_id":83,"answer":"kesho","question_id":6,"date_created":"2022-06-30 23:10:47","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":6,"question":"Siku gani","frm_option":"[\"leo\",\"kesho\"]","type":"radio_opt","survey_id":10,"date_created":"2022-06-24 06:30:58"}},{"id":23,"survey_id":1,"user_id":83,"answer":"[Checkbox label 2, Checkbox label 3]","question_id":2,"date_created":"2022-06-30 23:11:13","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}},{"id":24,"survey_id":1,"user_id":83,"answer":"Option 1","question_id":1,"date_created":"2022-06-30 23:42:14","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":null},{"id":25,"survey_id":1,"user_id":83,"answer":"[Checkbox label 3, Checkbox label 4]","question_id":2,"date_created":"2022-06-30 23:46:00","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}},{"id":26,"survey_id":1,"user_id":83,"answer":"leo","question_id":7,"date_created":"2022-06-30 23:46:58","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":null},{"id":27,"survey_id":1,"user_id":83,"answer":"Option 3","question_id":1,"date_created":"2022-07-01 00:23:01","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":null},{"id":28,"survey_id":1,"user_id":83,"answer":"[Checkbox label 3, Checkbox label 4]","question_id":2,"date_created":"2022-07-01 00:23:07","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}},{"id":29,"survey_id":1,"user_id":88,"answer":"Option 1","question_id":1,"date_created":"2022-07-01 05:54:15","user":{"id":88,"first_name":"Martin","last_name":"DI","email":"brekke.dameon@example.net","phone":"+254724213205","role":"Agent","gender":"Male","avatar":null,"allocated_area":"AIC NANYUKI NURSERY,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":null,"county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"67da7bdf-bb1c-4969-8b54-4b631f30bcb5","status":"online","created_at":"2022-06-29T13:24:56.000000Z","updated_at":"2022-07-07T12:31:02.000000Z"},"question":null}]
+[2022-07-19 12:11:25] local.INFO: [{"id":12,"survey_id":1,"user_id":50,"answer":"gsag aff","question_id":4,"date_created":"2022-06-30 05:34:09","user":{"id":50,"first_name":"Deveint","last_name":"Admin","email":"mitchell.gilda@example.org","phone":"+254700073483","role":"Admin","gender":"Female","avatar":null,"allocated_area":"ABWAO PRIMARY SCHOOL,KISUMU","ward_prog":null,"const_prog":null,"national_prog":null,"county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"myLXhJ4MaY","status":"online","created_at":"2022-03-02T03:25:29.000000Z","updated_at":"2022-07-07T13:16:08.000000Z"},"question":{"id":4,"question":"Sample question for the text field","frm_option":"","type":"textfield_s","survey_id":10,"date_created":"2020-11-10 13:34:21"}},{"id":13,"survey_id":1,"user_id":50,"answer":"afegbdsg dgdsg","question_id":2,"date_created":"2022-06-30 05:34:09","user":{"id":50,"first_name":"Deveint","last_name":"Admin","email":"mitchell.gilda@example.org","phone":"+254700073483","role":"Admin","gender":"Female","avatar":null,"allocated_area":"ABWAO PRIMARY SCHOOL,KISUMU","ward_prog":null,"const_prog":null,"national_prog":null,"county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"myLXhJ4MaY","status":"online","created_at":"2022-03-02T03:25:29.000000Z","updated_at":"2022-07-07T13:16:08.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}},{"id":14,"survey_id":1,"user_id":50,"answer":"gsagsagssg","question_id":6,"date_created":"2022-06-30 05:34:09","user":{"id":50,"first_name":"Deveint","last_name":"Admin","email":"mitchell.gilda@example.org","phone":"+254700073483","role":"Admin","gender":"Female","avatar":null,"allocated_area":"ABWAO PRIMARY SCHOOL,KISUMU","ward_prog":null,"const_prog":null,"national_prog":null,"county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"myLXhJ4MaY","status":"online","created_at":"2022-03-02T03:25:29.000000Z","updated_at":"2022-07-07T13:16:08.000000Z"},"question":{"id":6,"question":"Siku gani","frm_option":"[\"leo\",\"kesho\"]","type":"radio_opt","survey_id":10,"date_created":"2022-06-24 06:30:58"}},{"id":15,"survey_id":1,"user_id":83,"answer":"Option 3","question_id":6,"date_created":"2022-06-30 22:25:17","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":6,"question":"Siku gani","frm_option":"[\"leo\",\"kesho\"]","type":"radio_opt","survey_id":10,"date_created":"2022-06-24 06:30:58"}},{"id":16,"survey_id":1,"user_id":83,"answer":"Option 3","question_id":2,"date_created":"2022-06-30 22:37:07","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}},{"id":17,"survey_id":1,"user_id":83,"answer":"Option 2","question_id":4,"date_created":"2022-06-30 22:41:10","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":4,"question":"Sample question for the text field","frm_option":"","type":"textfield_s","survey_id":10,"date_created":"2020-11-10 13:34:21"}},{"id":18,"survey_id":1,"user_id":83,"answer":"Option 2","question_id":2,"date_created":"2022-06-30 22:41:44","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}},{"id":19,"survey_id":1,"user_id":83,"answer":"Option 2","question_id":6,"date_created":"2022-06-30 22:41:57","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":6,"question":"Siku gani","frm_option":"[\"leo\",\"kesho\"]","type":"radio_opt","survey_id":10,"date_created":"2022-06-24 06:30:58"}},{"id":20,"survey_id":1,"user_id":83,"answer":"[Checkbox label 2, Checkbox label 3, Checkbox label 4]","question_id":2,"date_created":"2022-06-30 22:57:26","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}},{"id":21,"survey_id":1,"user_id":83,"answer":"this is my answer to this question\nIt supports multiline. Am glad to answer it","question_id":4,"date_created":"2022-06-30 23:06:12","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":4,"question":"Sample question for the text field","frm_option":"","type":"textfield_s","survey_id":10,"date_created":"2020-11-10 13:34:21"}},{"id":22,"survey_id":1,"user_id":83,"answer":"kesho","question_id":6,"date_created":"2022-06-30 23:10:47","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":6,"question":"Siku gani","frm_option":"[\"leo\",\"kesho\"]","type":"radio_opt","survey_id":10,"date_created":"2022-06-24 06:30:58"}},{"id":23,"survey_id":1,"user_id":83,"answer":"[Checkbox label 2, Checkbox label 3]","question_id":2,"date_created":"2022-06-30 23:11:13","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}},{"id":24,"survey_id":1,"user_id":83,"answer":"Option 1","question_id":4,"date_created":"2022-06-30 23:42:14","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":4,"question":"Sample question for the text field","frm_option":"","type":"textfield_s","survey_id":10,"date_created":"2020-11-10 13:34:21"}},{"id":25,"survey_id":1,"user_id":83,"answer":"[Checkbox label 3, Checkbox label 4]","question_id":2,"date_created":"2022-06-30 23:46:00","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}},{"id":26,"survey_id":1,"user_id":83,"answer":"leo","question_id":6,"date_created":"2022-06-30 23:46:58","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":6,"question":"Siku gani","frm_option":"[\"leo\",\"kesho\"]","type":"radio_opt","survey_id":10,"date_created":"2022-06-24 06:30:58"}},{"id":27,"survey_id":1,"user_id":83,"answer":"Option 3","question_id":4,"date_created":"2022-07-01 00:23:01","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":4,"question":"Sample question for the text field","frm_option":"","type":"textfield_s","survey_id":10,"date_created":"2020-11-10 13:34:21"}},{"id":28,"survey_id":1,"user_id":83,"answer":"[Checkbox label 3, Checkbox label 4]","question_id":2,"date_created":"2022-07-01 00:23:07","user":{"id":83,"first_name":"James","last_name":"Jay","email":"bogisich.shawn@example.org","phone":"+254746051278","role":"Agent","gender":"Female","avatar":null,"allocated_area":"ARJIJO PRIMARY SCHOOL,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":"100","county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"70faa603-817a-4b60-8367-1c35c39b155e","status":"online","created_at":"2022-06-17T10:27:34.000000Z","updated_at":"2022-07-13T12:34:51.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}},{"id":29,"survey_id":1,"user_id":88,"answer":"Option 1","question_id":2,"date_created":"2022-07-01 05:54:15","user":{"id":88,"first_name":"Martin","last_name":"DI","email":"brekke.dameon@example.net","phone":"+254724213205","role":"Agent","gender":"Male","avatar":null,"allocated_area":"AIC NANYUKI NURSERY,LAIKIPIA","ward_prog":null,"const_prog":null,"national_prog":null,"county_prog":null,"provider":null,"provider_unique_id":null,"activation_token":"67da7bdf-bb1c-4969-8b54-4b631f30bcb5","status":"online","created_at":"2022-06-29T13:24:56.000000Z","updated_at":"2022-07-07T12:31:02.000000Z"},"question":{"id":2,"question":"Question for Checkboxes","frm_option":"[\"leo\",\"kesho\", \"another\"]","type":"radio_opt","survey_id":10,"date_created":"2020-11-10 12:25:13"}}]
+=======
 [2022-07-19 12:07:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -3069,7 +3073,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:08:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -3085,7 +3089,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:09:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -3101,7 +3105,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:10:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -3117,7 +3121,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:11:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -3133,7 +3137,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:12:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -3149,7 +3153,7 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:13:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
@@ -3165,8 +3169,40 @@ Stack trace:
   thrown at Command line code:1)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2022-07-19 12:14:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"}
+[2022-07-19 12:15:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"}
+[2022-07-19 12:16:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
 Stack trace:
 #0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
 #1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
