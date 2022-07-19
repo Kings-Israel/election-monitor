@@ -174,8 +174,8 @@ export default {
 
     created() {
         this.loading = true;
-        // axios.get('http://172.104.245.14/electionmonitor/api/v1/fetch-surveys')
-        axios.get("../api/v1/fetch-surveys")
+        axios.get('http://172.104.245.14/electionmonitor/api/v1/fetch-surveys')
+        // axios.get("../api/v1/fetch-surveys")
             .then((response) => {
             console.log(response.data.data);
             this.loading = false;
@@ -194,8 +194,8 @@ export default {
                 page = 1;
             }
             // let url = helper.getFilterURL(this.filterAspirantForm);
-            // axios.get('http://172.104.245.14/electionmonitor/api/v1/surveys')
-            axios.get("../api/v1/surveys")
+            axios.get('http://172.104.245.14/electionmonitor/api/v1/surveys')
+            // axios.get("../api/v1/surveys")
                 .then((response) => {
                 console.log(response.data);
                 for (let i = 0; i < response.data.data.length; i++) {
