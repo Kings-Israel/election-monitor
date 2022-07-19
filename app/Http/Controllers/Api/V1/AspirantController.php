@@ -47,7 +47,7 @@ class AspirantController extends APIController
                 return response()->json(['message' => $validation->messages()->first()], 422);
             }
 
-        
+
 
             $user = JWTAuth::parseToken()->authenticate();
             $aspirant = new Aspirant();
@@ -162,7 +162,7 @@ class AspirantController extends APIController
     public function enterResults($electoral_area)
     {
         try {
-            
+
             $aspirants = DB::select("select * from aspirants where electoral_area='".$electoral_area."'");
             return response()->json(['message' => 'Aspirants fetched', 'data' => $aspirants]);
         } catch (\Exception $ex) {
@@ -201,8 +201,6 @@ class AspirantController extends APIController
 
             DB::update('update aspirants set results = ? where uuid = ?', [ $cummulative_results,  $aspirant_uuid]);
 
-            
-
             Log::info('Aspirant results entered successfully!', ['values' => $values]);
             return response()->json(['message' => 'Result entered successfully!']);
         } catch (\Exception $ex) {
@@ -219,15 +217,15 @@ class AspirantController extends APIController
     public function voteStatus(Request $request)
     {
         try {
-            
+
             $user = JWTAuth::parseToken()->authenticate();
             $agent_id = $user->id;
 
             // return $agent_id;
             // Log::info('Vote status!', ['votes' => $votes]);
             return $votes = DB::select("select aspirant_uuid, votes from results where agent_id='".$agent_id."'");
-            
-            
+
+
             // return response()->json(['message' => 'Result entered successfully!', 'data' => $votes]);
         } catch (\Exception $ex) {
             Log::error($ex->getMessage());
