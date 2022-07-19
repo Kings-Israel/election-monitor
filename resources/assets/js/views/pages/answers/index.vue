@@ -33,7 +33,8 @@
                         <v-data-table :headers="headers" :items="searched">
                             <template v-slot:item.user="{ item }">
                                 <td>
-                                    {{ item.user.first_name }} {{ item.user.last_name }}
+                                    {{ item.user.first_name }}
+                                    {{ item.user.last_name }}
                                 </td>
                             </template>
                             <template v-slot:item.date_created="{ item }">
@@ -74,7 +75,8 @@ const toLower = (text) => {
 
 const searchByFilter = (items, term) => {
     if (term) {
-        return items.filter((item) =>
+        return items.filter(
+            (item) =>
                 toLower(item.answer).includes(toLower(term)) ||
                 toLower(item.question.question).includes(toLower(term)) ||
                 toLower(item.user.first_name).includes(toLower(term)) ||
@@ -114,15 +116,19 @@ export default {
 
     created() {
         this.loading = true;
-        axios.get('http://172.104.245.14/electionmonitor/api/v1/fetch-survey-questions')
-        // axios.get("../api/v1/fetch-answers")
+        axios
+            .get(
+                "http://172.104.245.14/electionmonitor/api/v1/fetch-survey-questions"
+            )
+            // axios.get("../api/v1/fetch-answers")
             .then((response) => {
-            this.loading = false;
-            for (let i = 0; i < response.data.data.length; i++) {
-                this.answers.push(response.data.data[i]);
-            }
-            this.searched = this.answers;
-        });
+                console.log(response.data.data);
+                this.loading = false;
+                for (let i = 0; i < response.data.data.length; i++) {
+                    this.answers.push(response.data.data[i]);
+                }
+                this.searched = this.answers;
+            });
     },
 
     methods: {

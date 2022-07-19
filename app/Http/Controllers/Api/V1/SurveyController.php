@@ -273,6 +273,7 @@ class SurveyController extends APIController
     {
         // $answers = DB::table('answers')->get();
         $answers = Answer::with('user', 'question')->get();
+        info($answers);
 
         return response()->json(['status' => 'Successful', 'message' => 'Answers fetched successfully', 'data' => $answers]);
     }
