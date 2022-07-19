@@ -1,7 +1,7 @@
 export default {
     logout(){
-        return axios.post('http://172.104.245.14/electionmonitor/api/v1/auth/logout').then(response =>  {
-        // return axios.post('http://127.0.0.1:8000/api/v1/auth/logout').then(response =>  {
+        // return axios.post('http://172.104.245.14/electionmonitor/api/v1/auth/logout').then(response =>  {
+        return axios.post('http://127.0.0.1:8000/api/v1/auth/logout').then(response =>  {
             localStorage.removeItem('auth_token');
             axios.defaults.headers.common['Authorization'] = null;
         }).catch(error => {
@@ -10,8 +10,8 @@ export default {
     },
 
     authUser(){
-        return axios.get('http://172.104.245.14/electionmonitor/api/v1/auth/user').then(response =>  {
-        // return axios.get('http://127.0.0.1:8000/api/v1/auth/user').then(response =>  {
+        // return axios.get('http://172.104.245.14/electionmonitor/api/v1/auth/user').then(response =>  {
+        return axios.get('http://127.0.0.1:8000/api/v1/auth/user').then(response =>  {
             return response.data;
         }).catch(error => {
             return error.response.data;
@@ -19,8 +19,8 @@ export default {
     },
 
     check(){
-        return axios.post('http://172.104.245.14/electionmonitor/api/v1/auth/check').then(response =>  {
-        // return axios.post('http://127.0.0.1:8000/api/v1/auth/check').then(response =>  {
+        // return axios.post('http://172.104.245.14/electionmonitor/api/v1/auth/check').then(response =>  {
+        return axios.post('http://127.0.0.1:8000/api/v1/auth/check').then(response =>  {
             return !!response.data.authenticated;
         }).catch(error =>{
             return response.data.authenticated;

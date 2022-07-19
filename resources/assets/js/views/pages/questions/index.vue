@@ -39,6 +39,9 @@
                             ></v-text-field>
                         </md-field>
                         <v-data-table :headers="headers" :items="searched">
+                            <template v-slot:item.date_created="{ item }">
+                                {{ item.date_created | formatDate }}
+                            </template>
                             <template v-slot:item.actions="{ item }">
                                 <!-- <router-link :to="`/electionmonitor/question/${item.id}/answers`">
                                     <v-icon
@@ -175,8 +178,8 @@ export default {
 
     created() {
         this.loading = true;
-        axios.get('http://172.104.245.14/electionmonitor/api/v1/fetch-survey-questions')
-        // axios.get("../api/v1/fetch-survey-questions")
+        // axios.get('http://172.104.245.14/electionmonitor/api/v1/fetch-survey-questions')
+        axios.get("../api/v1/fetch-survey-questions")
             .then((response) => {
             this.loading = false;
             for (let i = 0; i < response.data.data.length; i++) {
@@ -204,8 +207,8 @@ export default {
                 page = 1;
             }
             // let url = helper.getFilterURL(this.filterAspirantForm);
-            axios.get('http://172.104.245.14/electionmonitor/api/v1/fetch-survey-questions')
-            // axios.get("../api/v1/fetch-survey-questions")
+            // axios.get('http://172.104.245.14/electionmonitor/api/v1/fetch-survey-questions')
+            axios.get("../api/v1/fetch-survey-questions")
                 .then((response) => {
                 for (let i = 0; i < response.data.data.length; i++) {
                     this.questions.push(response.data.data[i]);
@@ -222,8 +225,8 @@ export default {
 
         performDelete() {
             this.loading = true;
-            axios.delete('http://172.104.245.14/electionmonitor/api/v1/delete-question/'+this.deleteQuestionID)
-            // axios.delete("../api/v1/delete-question/" + this.deleteQuestionID)
+            // axios.delete('http://172.104.245.14/electionmonitor/api/v1/delete-question/'+this.deleteQuestionID)
+            axios.delete("../api/v1/delete-question/" + this.deleteQuestionID)
                 .then((response) => {
                     this.loading = false;
                     this.deleteDialog = true;

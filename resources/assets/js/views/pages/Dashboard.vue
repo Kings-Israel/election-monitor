@@ -267,8 +267,8 @@ export default {
     },
 
     mounted() {
-        axios.get("/electionmonitor/api/v1/user-dashboard").then((response) => {
-        // axios.get("../api/v1/user-dashboard").then((response) => {
+        // axios.get("/electionmonitor/api/v1/user-dashboard").then((response) => {
+        axios.get("../api/v1/user-dashboard").then((response) => {
             this.stats.users.value = response.data.users_count;
             this.stats.aspirants.value = response.data.aspirants_count;
             this.stats.results = response.data.total_results;
