@@ -26,10 +26,9 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
         Route::post('/social/token', 'SocialAuthController@getToken');
         Route::post('/two-factor-auth', 'AuthController@storeOTP');
         Route::post('/two-factor-auth/resend/{number}', 'AuthController@resendOTP');
-
-
     });
 
+    Route::get('/county/progress', 'UserController@getCountyProgress');
 
     Route::group(['middleware' => ['jwt.auth']], function () {
         Route::get('/auth/user', 'AuthController@getAuthUser');
@@ -60,7 +59,6 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
         Route::put('/user/{id}', 'UserController@updateProfile');
         Route::get('/user-dashboard', 'UserController@dashboard');
         Route::get('/fetch-results', 'UserController@results');
-
 
         Route::get('/county', 'LocationsController@fetchCounty');
         Route::get('/constituency', 'LocationsController@fetchConstituency');

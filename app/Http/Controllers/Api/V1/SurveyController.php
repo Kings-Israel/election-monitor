@@ -239,7 +239,7 @@ class SurveyController extends APIController
         $user = JWTAuth::parseToken()->authenticate();
 
         $naswer = Answer::create([
-            'user_id' => $user->id,
+            'user_id' => $request->user_id,
             'survey_id' => $request->survey_id,
             'question_id' => $request->question_id,
             'answer' => $request->answer
