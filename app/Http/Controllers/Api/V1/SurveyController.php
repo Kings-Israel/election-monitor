@@ -19,34 +19,35 @@ class SurveyController extends APIController
      */
     public function storeSurvey(Request $request)
     {
-	 $save = DB::table('survey_set')->insert(
-	    ['title' => $request->input('title'),
-	     'description' => $request->input('description'),
-	     'start_date' => $request->input('start_date'),
-	     'end_date' => $request->input('end_date'),]
-	);
+        $save = DB::table('survey_set')->insert([
+                'title' => $request->input('title'),
+                'description' => $request->input('description'),
+                'start_date' => $request->input('start_date'),
+                'end_date' => $request->input('end_date'),
+            ]);
 
-	if ($save){
-         return response()->json(['status' => 'Successful','message' => 'Survey saved successfully']);
-        }else {
-         return response()->json(['status' => 'Failed','message' => 'Survey was not saved']);
-         }
+        if ($save){
+            return response()->json(['status' => 'Successful','message' => 'Survey saved successfully']);
+        } else {
+            return response()->json(['status' => 'Failed','message' => 'Survey was not saved']);
+        }
+    }
 
-    } /**
+    /**
      * fetch surveys
      *
      * @return response()
      */
     public function fetchSurveys()
     {
-	//  $surveys = DB::table('survey_set')->get();
-    $surveys = Survey::withCount('questions')->get();
+        //  $surveys = DB::table('survey_set')->get();
+        $surveys = Survey::withCount('questions')->get();
 
-	if ($surveys){
-         return response()->json(['status' => 'Successful','message' => 'Surveys fetched successfully', 'data' => $surveys]);
-        }else {
-         return response()->json(['status' => 'Failed','message' => 'Surveys not fetched']);
-         }
+        if ($surveys){
+            return response()->json(['status' => 'Successful','message' => 'Surveys fetched successfully', 'data' => $surveys]);
+        } else {
+            return response()->json(['status' => 'Failed','message' => 'Surveys not fetched']);
+        }
 
     }
 
@@ -57,14 +58,13 @@ class SurveyController extends APIController
      */
     public function fetchByID($id)
     {
-	 $surveys = DB::table('survey_set')->where('id', $id)->get();
+	    $surveys = DB::table('survey_set')->where('id', $id)->get();
 
-	if ($surveys){
-         return response()->json(['status' => 'Successful','message' => 'Surveys fetched successfully', 'data' => $surveys]);
-        }else {
-         return response()->json(['status' => 'Failed','message' => 'Surveys not fetched']);
-         }
-
+	    if ($surveys){
+            return response()->json(['status' => 'Successful','message' => 'Surveys fetched successfully', 'data' => $surveys]);
+        } else {
+            return response()->json(['status' => 'Failed','message' => 'Surveys not fetched']);
+        }
     }
         /**
      * update announcement
@@ -74,18 +74,19 @@ class SurveyController extends APIController
     public function updateSurvey(Request $request,$id)
     {
        $update = DB::table('survey_set')->where('id', $id)->update([
-       	'title' => $request->input('title'),
-	     'description' => $request->input('description'),
-	     'start_date' => $request->input('start_date'),
-	     'end_date' => $request->input('end_date')]);
+       	    'title' => $request->input('title'),
+	        'description' => $request->input('description'),
+	        'start_date' => $request->input('start_date'),
+	        'end_date' => $request->input('end_date')
+        ]);
 
         if ($update){
-         return response()->json(['status' => 'Successful','message' => 'Survey updated successfully']);
-		}else {
-		 return response()->json(['status' => 'Failed','message' => 'Survey was not updated']);
-		 }
-
+            return response()->json(['status' => 'Successful','message' => 'Survey updated successfully']);
+		}   else {
+		    return response()->json(['status' => 'Failed','message' => 'Survey was not updated']);
+        }
     }
+    
     /**
      * fetch survey questions
      *
@@ -93,14 +94,14 @@ class SurveyController extends APIController
      */
     public function fetchSurveyQuestions(Request $request)
     {
-	//  $questions = DB::table('questions')->get();
-    $questions = Question::with('survey', 'answers')->get();
+	    //  $questions = DB::table('questions')->get();
+        $questions = Question::with('survey', 'answers')->get();
 
-	if ($questions){
-         return response()->json(['status' => 'Successful','message' => 'Survey questions fetched successfully', 'data' => $questions]);
-        }else {
-         return response()->json(['status' => 'Failed','message' => 'Survey questionss not fetched']);
-         }
+        if ($questions){
+            return response()->json(['status' => 'Successful','message' => 'Survey questions fetched successfully', 'data' => $questions]);
+        } else {
+            return response()->json(['status' => 'Failed','message' => 'Survey questionss not fetched']);
+        }
 
     }
 
@@ -111,14 +112,13 @@ class SurveyController extends APIController
      */
     public function fetchQuestionByID(Request $request, $id)
     {
-	 $questions = DB::table('questions')->where('id', $id)->get();
+	    $questions = DB::table('questions')->where('id', $id)->get();
 
-	if ($questions){
-         return response()->json(['status' => 'Successful','message' => 'Questions fetched successfully', 'data' => $questions]);
-        }else {
-         return response()->json(['status' => 'Failed','message' => 'Survey questions not fetched']);
-         }
-
+	    if ($questions){
+            return response()->json(['status' => 'Successful','message' => 'Questions fetched successfully', 'data' => $questions]);
+        }   else {
+            return response()->json(['status' => 'Failed','message' => 'Survey questions not fetched']);
+        }
     }
 
      /**
@@ -128,15 +128,15 @@ class SurveyController extends APIController
      */
     public function fetchSurveyQuestionsByID(Request $request, $id)
     {
-	 $questions = DB::table('questions')->where('survey_id', $id)->get();
+	    $questions = DB::table('questions')->where('survey_id', $id)->get();
 
-	if ($questions){
-         return response()->json(['status' => 'Successful','message' => 'Survey questions fetched successfully', 'data' => $questions]);
-        }else {
-         return response()->json(['status' => 'Failed','message' => 'Survey questionss not fetched']);
-         }
-
+	    if ($questions){
+            return response()->json(['status' => 'Successful','message' => 'Survey questions fetched successfully', 'data' => $questions]);
+        }   else {
+            return response()->json(['status' => 'Failed','message' => 'Survey questionss not fetched']);
+        }
     }
+
     /**
      * delete survey
      *

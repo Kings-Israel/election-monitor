@@ -118,7 +118,7 @@ export default {
         this.loading = true;
         axios
             .get(
-                "http://172.104.245.14/electionmonitor/api/v1/fetch-survey-questions"
+                "http://172.104.245.14/electionmonitor/api/v1/fetch-answers"
             )
             // axios.get("../api/v1/fetch-answers")
             .then((response) => {
