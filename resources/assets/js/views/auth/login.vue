@@ -215,8 +215,8 @@ export default {
         submit(e) {
             this.loading = true;
             this.otpForm
-                // .post("/electionmonitor/api/v1/auth/check/if/user/exists")
-                .post("../api/v1/auth/check/if/user/exists")
+                .post("/electionmonitor/api/v1/auth/check/if/user/exists")
+                // .post("../api/v1/auth/check/if/user/exists")
                 .then((response) => {
                     this.alert = true;
                     // console.log(this.alertMessage = response.message)
@@ -250,8 +250,8 @@ export default {
             // this.otpForm.phone = this.signinForm.phone
             this.otpForm.phone = this.verify_phone;
             this.otpForm
-                // .post("/electionmonitor/api/v1/auth/two-factor-auth")
-                .post("../api/v1/auth/two-factor-auth")
+                .post("/electionmonitor/api/v1/auth/two-factor-auth")
+                // .post("../api/v1/auth/two-factor-auth")
                 .then((response) => {
                     // console.log(response)
                     if (response.message === "Success") {
@@ -315,8 +315,8 @@ export default {
         },
         signin() {
             this.signinForm
-                // .post("/electionmonitor/api/v1/auth/login")
-                .post("../api/v1/auth/login")
+                .post("/electionmonitor/api/v1/auth/login")
+                // .post("../api/v1/auth/login")
                 .then((response) => {
                     // console.log(response.data[0].role)
                     this.loading = true;
