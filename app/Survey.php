@@ -15,6 +15,13 @@ class Survey extends Model
     protected $table = 'survey_set';
 
     /**
+     * The attributes that aren't mass assignable.
+     *
+     * @var array
+     */
+    protected $guarded = [];
+    
+    /**
      * Get all of the questions for the Survey
      *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany

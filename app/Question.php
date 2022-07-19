@@ -16,6 +16,13 @@ class Question extends Model
     protected $table = 'questions';
 
     /**
+     * The attributes that aren't mass assignable.
+     *
+     * @var array
+     */
+    protected $guarded = [];
+
+    /**
      * Get the survey that owns the Question
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
