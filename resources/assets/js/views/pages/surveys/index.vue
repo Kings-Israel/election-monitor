@@ -177,7 +177,6 @@ export default {
         axios.get('http://172.104.245.14/electionmonitor/api/v1/fetch-surveys')
         // axios.get("../api/v1/fetch-surveys")
             .then((response) => {
-            console.log(response.data.data);
             this.loading = false;
             for (let i = 0; i < response.data.data.length; i++) {
                 this.surveys.push(response.data.data[i]);
