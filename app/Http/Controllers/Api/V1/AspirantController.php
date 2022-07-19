@@ -191,7 +191,12 @@ class AspirantController extends APIController
             $agent_name = $user->first_name.' '.$user->last_name;
             $agent_polling = $user->allocated_area;
 
-            $values = array('aspirant_uuid' => $aspirant_uuid,'agent_id' => $agent_id, 'agent_name' => $agent_name,  'polling'=> $agent_polling, 'votes' => $results);
+            $photo = NULL
+            if($request->photo != NULL && $request->hasFile('photo')) {
+                $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
+            }
+
+            $values = array('aspirant_uuid' => $aspirant_uuid,'agent_id' => $agent_id, 'agent_name' => $agent_name,  'polling'=> $agent_polling, 'votes' => $results, 'photo' => NULL);
             DB::table('results')->insert($values);
 
             $cummulative_results = DB::table('results')->where('aspirant_uuid',  $aspirant_uuid)->sum('votes');
