@@ -49,7 +49,7 @@ class UserController extends APIController
             // return $this->repositery->getAllUsers($request);
             return $user = DB::select('select * from users');
             // return  $user = User;
-            
+
         } catch (\Exception $ex) {
             // Log::error($ex->getMessage());
 
@@ -95,7 +95,7 @@ class UserController extends APIController
                 'last_name'     => 'required|min:2',
                 // 'date_of_birth' => 'required|date_format:Y-m-d',
                 // 'gender'        => 'required|in:male,female',
-                
+
             ]);
 
             if ($validation->fails()) {
@@ -172,7 +172,7 @@ class UserController extends APIController
             }
 
             if ($user->delete()) {
-               
+
                 DB::commit();
                 $responseArr = [
                     'message' => 'User has been deleted successfully!',
@@ -204,7 +204,7 @@ class UserController extends APIController
 
             $total_results = DB::table("results")->get()->sum("votes");
             $pollings = DB::table('polling')->count();
-            
+
             // $recent_incomplete_aspirants = Aspirant::whereStatus(0)->orderBy('due_date', 'desc')->limit(5)->get();
             // return $user = 'Kenya';
             return response()->json(compact('users_count', 'aspirants_count', 'total_results', 'pollings'));
@@ -220,9 +220,9 @@ class UserController extends APIController
     public function results()
     {
         try {
-         
+
             $results = DB::table("results")->get();
-            
+
             // $recent_incomplete_aspirants = Aspirant::whereStatus(0)->orderBy('due_date', 'desc')->limit(5)->get();
             // return $user = 'Kenya';
             return response()->json(compact('results'));
@@ -250,6 +250,15 @@ class UserController extends APIController
             return response()->json(['message' => 'Sorry, something went wrong!'], 422);
         }
     }
+
+    public function getCountyProgress()
+    {
+        $progress = User::sum('county_prog');
+
+        return response()->json(['message' => '', 'data' => $progress], 200);
+    }
+
+
     /**
      * @return \Illuminate\Http\JsonResponse
      */
@@ -268,6 +277,14 @@ class UserController extends APIController
             return response()->json(['message' => 'Sorry, something went wrong!'], 422);
         }
     }
+
+    public function getConstituencyProgress()
+    {
+        $progress = User::sum('const_prog');
+
+        return response()->json(['message' => '', 'data' => $progress], 200);
+    }
+
     /**
      * @return \Illuminate\Http\JsonResponse
      */
@@ -286,6 +303,14 @@ class UserController extends APIController
             return response()->json(['message' => 'Sorry, something went wrong!'], 422);
         }
     }
+
+    public function getNationalProgress()
+    {
+        $progress = User::sum('national_prog');
+
+        return response()->json(['message' => '', 'data' => $progress], 200);
+    }
+
     /**
      * @return \Illuminate\Http\JsonResponse
      */
@@ -304,5 +329,11 @@ class UserController extends APIController
         }
     }
 
+    public function getWardProgress()
+    {
+        $progress = User::sum('ward_prog');
+
+        return response()->json(['message' => '', 'data' => $progress], 200);
+    }
 
 }

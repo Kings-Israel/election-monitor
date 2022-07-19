@@ -145,7 +145,6 @@ class AspirantController extends APIController
             $aspirant->save();
 
             Log::info('Aspirant was updated successfully!', ['data' => $aspirant]);
-
             return response()->json(['message' => 'Aspirant updated!', 'data' => $aspirant]);
         } catch (\Exception $ex) {
             Log::error($ex->getMessage());
@@ -162,12 +161,10 @@ class AspirantController extends APIController
     public function enterResults($electoral_area)
     {
         try {
-
             $aspirants = DB::select("select * from aspirants where electoral_area='".$electoral_area."'");
             return response()->json(['message' => 'Aspirants fetched', 'data' => $aspirants]);
         } catch (\Exception $ex) {
             Log::error($ex->getMessage());
-
             return response()->json(['message' => 'Sorry, something went wrong!'], 422);
         }
     }

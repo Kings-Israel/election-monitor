@@ -227,23 +227,6 @@
                 this.search = position
                 this.searched = searchByFilter(this.aspirants, this.search)
             },
-            getAspirants(page) {
-                this.loading =true
-                if (typeof page === 'undefined') {
-                    page = 1;
-                }
-                // let url = helper.getFilterURL(this.filterAspirantForm);
-                axios.get('http://172.104.245.14/electionmonitor/api/v1/aspirant')
-                    .then(response => {
-
-                        for(let i = 0;i < response.data.length;i++) {
-                            this.aspirants.push(response.data[i])
-                        }
-                        this.searched = this.aspirants
-                        // console.log(this.searched)
-                         this.loading = false
-                    });
-            },
 
             deleteAspirant(aspirant) {
                 this.deleteDialog = true

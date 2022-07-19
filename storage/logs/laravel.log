@@ -3586,3 +3586,1177 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2022-07-19 12:40:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:41:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:42:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:43:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:44:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:45:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:46:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:47:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:48:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:49:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:50:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:51:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:52:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:53:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:54:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:55:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:56:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:57:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:58:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 12:59:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:00:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:01:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:02:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:03:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:04:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:05:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:06:27] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:07:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:08:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:09:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:10:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:11:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:12:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:13:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:14:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:15:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:16:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:17:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:18:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:19:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:20:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:21:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:22:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:23:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:24:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:25:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:26:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:27:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:28:00] local.ERROR: Invalid route action: [App\Http\Controllers\Api\V1\User]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Controllers\\Api\\V1\\User]. at C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php:92)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable('App\\\\Http\\\\Contro...')
+#1 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(182): Illuminate\\Routing\\RouteAction::parse('api/v1/ward/pro...', Array)
+#2 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(163): Illuminate\\Routing\\Route->parseAction(Array)
+#3 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(549): Illuminate\\Routing\\Route->__construct(Array, 'api/v1/ward/pro...', Array)
+#4 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(468): Illuminate\\Routing\\Router->newRoute(Array, 'api/v1/ward/pro...', Array)
+#5 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(447): Illuminate\\Routing\\Router->createRoute(Array, 'ward/progress', Array)
+#6 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(145): Illuminate\\Routing\\Router->addRoute(Array, 'ward/progress', 'User')
+#7 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->get('ward/progress', 'User')
+#8 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(52): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#9 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#10 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#11 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#12 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(100): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#13 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#14 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#15 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(101): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#17 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\xampp\\\\htdocs...')
+#18 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(417): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#19 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#20 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#21 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(71): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#22 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(38): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#23 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#24 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#26 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#27 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#28 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#29 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#30 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(28): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#31 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->boot()
+#32 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#33 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#34 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#35 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#36 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(867): Illuminate\\Container\\Container->call(Array)
+#37 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(850): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#38 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 26)
+#39 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): array_walk(Array, Object(Closure))
+#40 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#41 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#42 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#43 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#44 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#45 {main}
+"} 
+[2022-07-19 13:28:15] local.ERROR: Invalid route action: [App\Http\Controllers\Api\V1\UserController]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Controllers\\Api\\V1\\UserController]. at C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php:92)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable('App\\\\Http\\\\Contro...')
+#1 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(182): Illuminate\\Routing\\RouteAction::parse('api/v1/ward/pro...', Array)
+#2 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(163): Illuminate\\Routing\\Route->parseAction(Array)
+#3 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(549): Illuminate\\Routing\\Route->__construct(Array, 'api/v1/ward/pro...', Array)
+#4 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(468): Illuminate\\Routing\\Router->newRoute(Array, 'api/v1/ward/pro...', Array)
+#5 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(447): Illuminate\\Routing\\Router->createRoute(Array, 'ward/progress', Array)
+#6 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(145): Illuminate\\Routing\\Router->addRoute(Array, 'ward/progress', 'UserController')
+#7 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->get('ward/progress', 'UserController')
+#8 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(51): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#9 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#10 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#11 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#12 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(99): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#13 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#14 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#15 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(100): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#17 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\xampp\\\\htdocs...')
+#18 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(417): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#19 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#20 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#21 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(71): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#22 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(38): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#23 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#24 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#26 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#27 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#28 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#29 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#30 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(28): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#31 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->boot()
+#32 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#33 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#34 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#35 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#36 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(867): Illuminate\\Container\\Container->call(Array)
+#37 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(850): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#38 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 26)
+#39 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): array_walk(Array, Object(Closure))
+#40 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#41 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#42 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#43 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#44 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#45 {main}
+"} 
+[2022-07-19 13:28:23] local.ERROR: Invalid route action: [App\Http\Controllers\Api\V1\UserController]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Controllers\\Api\\V1\\UserController]. at C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php:92)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable('App\\\\Http\\\\Contro...')
+#1 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(182): Illuminate\\Routing\\RouteAction::parse('api/v1/ward/pro...', Array)
+#2 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(163): Illuminate\\Routing\\Route->parseAction(Array)
+#3 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(549): Illuminate\\Routing\\Route->__construct(Array, 'api/v1/ward/pro...', Array)
+#4 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(468): Illuminate\\Routing\\Router->newRoute(Array, 'api/v1/ward/pro...', Array)
+#5 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(447): Illuminate\\Routing\\Router->createRoute(Array, 'ward/progress', Array)
+#6 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(145): Illuminate\\Routing\\Router->addRoute(Array, 'ward/progress', 'UserController')
+#7 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->get('ward/progress', 'UserController')
+#8 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(51): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#9 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#10 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#11 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#12 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(99): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#13 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#14 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#15 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(100): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#17 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\xampp\\\\htdocs...')
+#18 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(417): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#19 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#20 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#21 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(71): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#22 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(38): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#23 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#24 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#26 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#27 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#28 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#29 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#30 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(28): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#31 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->boot()
+#32 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#33 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#34 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#35 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#36 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(867): Illuminate\\Container\\Container->call(Array)
+#37 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(850): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#38 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 26)
+#39 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): array_walk(Array, Object(Closure))
+#40 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#41 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#42 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#43 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#44 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#45 {main}
+"} 
+[2022-07-19 13:28:27] local.ERROR: Invalid route action: [App\Http\Controllers\Api\V1\]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Controllers\\Api\\V1\\]. at C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php:92)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable('App\\\\Http\\\\Contro...')
+#1 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(182): Illuminate\\Routing\\RouteAction::parse('api/v1/ward/pro...', Array)
+#2 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(163): Illuminate\\Routing\\Route->parseAction(Array)
+#3 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(549): Illuminate\\Routing\\Route->__construct(Array, 'api/v1/ward/pro...', Array)
+#4 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(468): Illuminate\\Routing\\Router->newRoute(Array, 'api/v1/ward/pro...', Array)
+#5 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(447): Illuminate\\Routing\\Router->createRoute(Array, 'ward/progress', Array)
+#6 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(145): Illuminate\\Routing\\Router->addRoute(Array, 'ward/progress', '')
+#7 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->get('ward/progress', '')
+#8 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(51): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#9 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#10 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#11 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#12 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(99): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#13 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#14 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#15 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(100): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#17 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\xampp\\\\htdocs...')
+#18 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(417): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#19 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#20 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#21 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(71): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#22 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(38): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#23 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#24 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#26 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#27 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#28 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#29 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#30 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(28): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#31 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->boot()
+#32 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#33 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#34 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#35 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#36 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(867): Illuminate\\Container\\Container->call(Array)
+#37 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(850): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#38 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 26)
+#39 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): array_walk(Array, Object(Closure))
+#40 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#41 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#42 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#43 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#44 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#45 {main}
+"} 
+[2022-07-19 13:28:27] local.ERROR: Invalid route action: [App\Http\Controllers\Api\V1\]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Controllers\\Api\\V1\\]. at C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php:92)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable('App\\\\Http\\\\Contro...')
+#1 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(182): Illuminate\\Routing\\RouteAction::parse('api/v1/ward/pro...', Array)
+#2 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(163): Illuminate\\Routing\\Route->parseAction(Array)
+#3 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(549): Illuminate\\Routing\\Route->__construct(Array, 'api/v1/ward/pro...', Array)
+#4 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(468): Illuminate\\Routing\\Router->newRoute(Array, 'api/v1/ward/pro...', Array)
+#5 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(447): Illuminate\\Routing\\Router->createRoute(Array, 'ward/progress', Array)
+#6 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(145): Illuminate\\Routing\\Router->addRoute(Array, 'ward/progress', '')
+#7 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->get('ward/progress', '')
+#8 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(51): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#9 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#10 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#11 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#12 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(99): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#13 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#14 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#15 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(100): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#17 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\xampp\\\\htdocs...')
+#18 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(417): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#19 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#20 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#21 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(71): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#22 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(38): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#23 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#24 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#26 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#27 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#28 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#29 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#30 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(28): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#31 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->boot()
+#32 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#33 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#34 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#35 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#36 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(867): Illuminate\\Container\\Container->call(Array)
+#37 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(850): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#38 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 26)
+#39 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): array_walk(Array, Object(Closure))
+#40 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#41 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#42 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#43 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#44 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#45 {main}
+"} 
+[2022-07-19 13:28:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:29:24] local.ERROR: Invalid route action: [App\Http\Controllers\Api\V1\]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Controllers\\Api\\V1\\]. at C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php:92)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable('App\\\\Http\\\\Contro...')
+#1 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(182): Illuminate\\Routing\\RouteAction::parse('api/v1/ward/pro...', Array)
+#2 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(163): Illuminate\\Routing\\Route->parseAction(Array)
+#3 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(549): Illuminate\\Routing\\Route->__construct(Array, 'api/v1/ward/pro...', Array)
+#4 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(468): Illuminate\\Routing\\Router->newRoute(Array, 'api/v1/ward/pro...', Array)
+#5 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(447): Illuminate\\Routing\\Router->createRoute(Array, 'ward/progress', Array)
+#6 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(145): Illuminate\\Routing\\Router->addRoute(Array, 'ward/progress', '')
+#7 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->get('ward/progress', '')
+#8 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(51): Illuminate\\Support\\Facades\\Facade::__callStatic('get', Array)
+#9 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#10 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#11 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#12 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(99): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#13 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->{closure}(Object(Illuminate\\Routing\\Router))
+#14 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#15 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\outes\\api.php(100): Illuminate\\Support\\Facades\\Facade::__callStatic('group', Array)
+#17 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\xampp\\\\htdocs...')
+#18 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(417): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#19 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#20 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#21 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(71): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#22 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(38): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#23 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#24 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#26 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#27 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#28 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#29 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#30 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Providers\\RouteServiceProvider.php(28): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#31 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->boot()
+#32 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#33 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#34 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#35 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#36 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(867): Illuminate\\Container\\Container->call(Array)
+#37 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(850): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#38 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 26)
+#39 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): array_walk(Array, Object(Closure))
+#40 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#41 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#42 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#43 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#44 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#45 {main}
+"} 
+[2022-07-19 13:29:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:30:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:31:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:32:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:33:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-19 13:34:28] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 

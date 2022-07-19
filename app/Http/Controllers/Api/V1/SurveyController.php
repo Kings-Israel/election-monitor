@@ -9,6 +9,7 @@ use App\Question;
 use App\UserCode;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Api\V1\APIController;
+use JWTAuth;
 
 class SurveyController extends APIController
 {
@@ -86,7 +87,7 @@ class SurveyController extends APIController
 		    return response()->json(['status' => 'Failed','message' => 'Survey was not updated']);
         }
     }
-    
+
     /**
      * fetch survey questions
      *
@@ -234,14 +235,17 @@ class SurveyController extends APIController
      */
     public function answerQuestion(Request $request)
     {
+        // survey_id, answer, question_id
+        $user = JWTAuth::parseToken()->authenticate();
 
-          // foreach($request->all() as $key => $value)
-          // {
+        $naswer = Answer::create([
+            'user_id' => $user->id,
+            'survey_id' => $request->survey_id,
+            'question_id' => $request->question_id,
+            'answer' => $request->answer
+        ]);
 
-          // }
-
-          return $request->all();
-
+        return response()->json(['message' => 'Answer submitted successfully'], 200);
     }
     /**
      * delete question
