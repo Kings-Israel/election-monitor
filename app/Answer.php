@@ -23,6 +23,13 @@ class Answer extends Model
     protected $guarded = [];
 
     /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = false;
+
+    /**
      * Get the question that owns the Answer
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
