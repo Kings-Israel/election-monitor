@@ -177,14 +177,17 @@ class AspirantController extends APIController
     public function storeResults(Request $request)
     {
         try {
-            $index = $request->only('index');
-            $index = $index['index'];
+            // $index = $request->only('index');
+            // $index = $index['index'];
 
             $aspirant_uuid = $request->only('uuid');
             $aspirant_uuid = $aspirant_uuid ['uuid'];
 
             $results = $request->only('results');
-            $results = $results['results'][$index];
+            $results = $results['results'];
+
+            info($results);
+            info($aspirant_uuid);
 
             $user = JWTAuth::parseToken()->authenticate();
             $agent_id = $user->id;
