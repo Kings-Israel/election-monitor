@@ -180,14 +180,16 @@ class AspirantController extends APIController
             // $index = $request->only('index');
             // $index = $index['index'];
 
-            $aspirant_uuid = $request->only('uuid');
-            $aspirant_uuid = $aspirant_uuid ['uuid'];
+            // $aspirant_uuid = $request->only('uuid');
+            // $aspirant_uuid = $aspirant_uuid['uuid'];
 
-            $results = $request->only('results');
-            $results = $results['results'];
+            // $results = $request->only('results');
+            // $results = $results['results'];
 
-            info($results);
-            info($aspirant_uuid);
+            // info($results);
+            // info($aspirant_uuid);
+
+            info($request->all());
 
             $user = JWTAuth::parseToken()->authenticate();
             $agent_id = $user->id;
@@ -199,8 +201,18 @@ class AspirantController extends APIController
                 $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
             }
 
-            $values = array('aspirant_uuid' => $aspirant_uuid,'agent_id' => $agent_id, 'agent_name' => $agent_name,  'polling'=> $agent_polling, 'votes' => $results, 'photo' => NULL);
-            DB::table('results')->insert($values);
+            foreach ($request->all() as $key => $value) {
+                DB::table('results')->insert([
+                    'agent_id' => $agent_id,
+                    'agent_name' => $agent_name,
+                    'polling' => $agent_polling,
+                    'aspirant_uuid' => $value['uuid'],
+                    'votes' => $value['results']
+                ]);
+            }
+
+            // $values = array('aspirant_uuid' => $aspirant_uuid,'agent_id' => $agent_id, 'agent_name' => $agent_name,  'polling'=> $agent_polling, 'votes' => $results, 'photo' => NULL);
+            // DB::table('results')->insert($values);
 
             $cummulative_results = DB::table('results')->where('aspirant_uuid',  $aspirant_uuid)->sum('votes');
 
