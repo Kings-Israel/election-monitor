@@ -202,13 +202,15 @@ class AspirantController extends APIController
             }
 
             foreach ($request->all() as $key => $value) {
-                DB::table('results')->insert([
-                    'agent_id' => $agent_id,
-                    'agent_name' => $agent_name,
-                    'polling' => $agent_polling,
-                    'aspirant_uuid' => $value['uuid'],
-                    'votes' => $value['results']
-                ]);
+                if ($value != NULL) {
+                    DB::table('results')->insert([
+                        'agent_id' => $agent_id,
+                        'agent_name' => $agent_name,
+                        'polling' => $agent_polling,
+                        'aspirant_uuid' => $value['uuid'],
+                        'votes' => $value['results']
+                    ]);
+                }
             }
 
             // $values = array('aspirant_uuid' => $aspirant_uuid,'agent_id' => $agent_id, 'agent_name' => $agent_name,  'polling'=> $agent_polling, 'votes' => $results, 'photo' => NULL);
