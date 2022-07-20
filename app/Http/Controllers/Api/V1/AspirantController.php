@@ -210,17 +210,18 @@ class AspirantController extends APIController
                         'aspirant_uuid' => $value['uuid'],
                         'votes' => $value['results']
                     ]);
+
+                    $cummulative_results = DB::table('results')->where('aspirant_uuid',  $value['uuid'])->sum('votes');
+
+                    DB::update('update aspirants set results = ? where uuid = ?', [ $cummulative_results,  $value['uuid']]);
                 }
             }
 
             // $values = array('aspirant_uuid' => $aspirant_uuid,'agent_id' => $agent_id, 'agent_name' => $agent_name,  'polling'=> $agent_polling, 'votes' => $results, 'photo' => NULL);
             // DB::table('results')->insert($values);
 
-            $cummulative_results = DB::table('results')->where('aspirant_uuid',  $aspirant_uuid)->sum('votes');
 
-            DB::update('update aspirants set results = ? where uuid = ?', [ $cummulative_results,  $aspirant_uuid]);
-
-            Log::info('Aspirant results entered successfully!', ['values' => $values]);
+            Log::info('Aspirant results entered successfully!');
             return response()->json(['message' => 'Result entered successfully!']);
         } catch (\Exception $ex) {
             Log::error($ex->getMessage());
