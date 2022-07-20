@@ -70,7 +70,6 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
         Route::post('/constituency_progress', 'UserController@ConstituencyProgress');
         Route::post('/ward_progress', 'UserController@WardProgress');
 
-
         Route::post('/store-survey', 'SurveyController@storeSurvey');
   	    Route::get('/fetch-surveys', 'SurveyController@fetchSurveys');
         Route::get('/fetch-survey/{id}', 'SurveyController@fetchByID');

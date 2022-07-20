@@ -15,12 +15,19 @@ class Survey extends Model
     protected $table = 'survey_set';
 
     /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = false;
+
+    /**
      * The attributes that aren't mass assignable.
      *
      * @var array
      */
     protected $guarded = [];
-    
+
     /**
      * Get all of the questions for the Survey
      *
