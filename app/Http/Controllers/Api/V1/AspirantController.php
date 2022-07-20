@@ -191,7 +191,7 @@ class AspirantController extends APIController
             $agent_name = $user->first_name.' '.$user->last_name;
             $agent_polling = $user->allocated_area;
 
-            $photo = NULL
+            $photo = NULL;
             if($request->photo != NULL && $request->hasFile('photo')) {
                 $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
             }
