@@ -35,12 +35,13 @@ class AuthController extends APIController
             )
         );
         curl_setopt($curl, CURLOPT_POSTFIELDS,
-            'grant_type=client_credentials&client_id=client_secret=',
+            'grant_type=client_credentials&client_id=vEG1B8MF7T1UpwSKd37C6vBZ1UpLXY13O4EddzAb4m4=&client_secret=412d8eed-d6cb-4d0e-9ac3-68cb422c4e6dY0pUraLquF6lliMMivd6vr6qgQY5C3FWN3+4UBj77Wg=',
         );
 
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         $curl_response = curl_exec($curl);
+        info($curl_response);
         $access_token=json_decode($curl_response);
         curl_close($curl);
         return $access_token->access_token;
@@ -49,8 +50,6 @@ class AuthController extends APIController
     public function checkIfUserExists(Request $request) {
         $phone = $request->only('phone');
 
-        // $phoneOTP = substr($phone['phone'], 1);
-        // $phoneOTP = '+254'.$phone;
         $phone = str_replace(' ', '', $phone);
 
         $user = DB::table('users')->where('phone', $phone)->get();
@@ -73,7 +72,7 @@ class AuthController extends APIController
             $curl = curl_init();
 
             curl_setopt_array($curl, array(
-              CURLOPT_URL => 'https://prsp.jambopay.co.ke/api/api/org/disburseSingleSms/',
+              CURLOPT_URL => 'https://swift.jambopay.co.ke/publc/send',
               CURLOPT_RETURNTRANSFER => true,
               CURLOPT_ENCODING => '',
               CURLOPT_MAXREDIRS => 10,
@@ -82,14 +81,14 @@ class AuthController extends APIController
               CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
               CURLOPT_CUSTOMREQUEST => 'POST',
               CURLOPT_POSTFIELDS =>'{
-                  "number" : "'.$phoneOTP.'",
-                  "sms" : '.$code.',
-                  "callBack" : "https://....",
-                  "senderName" : "PASANDA"
+                  "contact" : "'.$phoneOTP.'",
+                  "message" : '.$code.',
+                  "callback" : "https://....",
+                  "sender_name" : "BADILISHA"
             }
             ',
               CURLOPT_HTTPHEADER => array(
-                'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjozNywibmFtZSI6IkRldmVpbnQgTHRkIiwiZW1haWwiOiJpbmZvQGRldmVpbnQuY29tIiwibG9jYXRpb24iOiIyMyBPbGVuZ3VydW9uZSBBdmVudWUsIExhdmluZ3RvbiIsInBob25lIjoiMjU0NzQ4NDI0NzU3IiwiY291bnRyeSI6IktlbnlhIiwiY2l0eSI6Ik5haXJvYmkiLCJhZGRyZXNzIjoiMjMgT2xlbmd1cnVvbmUgQXZlbnVlIiwiaXNfdmVyaWZpZWQiOmZhbHNlLCJpc19hY3RpdmUiOmZhbHNlLCJjcmVhdGVkQXQiOiIyMDIxLTExLTIzVDEyOjQ5OjU2LjAwMFoiLCJ1cGRhdGVkQXQiOiIyMDIxLTExLTIzVDEyOjQ5OjU2LjAwMFoifSwiaWF0IjoxNjQ5MzEwNzcxfQ.4y5XYFbC5la28h0HfU6FYFP5a_6s0KFIf3nhr3CFT2I',
+                'Authorization: '.$this->accessToken().'',
                 'Content-Type: application/json'
               ),
             ));
@@ -97,10 +96,6 @@ class AuthController extends APIController
             $response = curl_exec($curl);
 
             curl_close($curl);
-            // echo $response;
-
-            // $foundUser = DB::table('users')->where('phone',$phone)->get();
-            // return $foundUser;
 
             Log::info('OTP code has been sent to', ['Phone' => $phoneOTP, 'Code' => $code]);
             return response()->json(['data' => $user, 'otp' => $code]);
@@ -148,15 +143,8 @@ class AuthController extends APIController
      */
     public function storeOTP(Request $request)
     {
-        // return $request->only('o');
-        // $validated = $request->validate([
-        //     // 'otp' => 'required',
-        //     'phone' => 'required'
-        // ]);
-
         $phone = $request->only('phone');
-        // $phone = substr($validated['phone'], 1);
-        // $phone = '+254'.$phone;
+
         $phone = str_replace(' ', '', $phone);
 
         $user = DB::table('users')->where('phone', $phone)->get();

@@ -1,13 +1,22 @@
 <?php
 
 namespace App\Http\Controllers\Api\V1;
-use Illuminate\Support\Facades\Log;
-use App\Models\Aspirant\Aspirant;
-use Illuminate\Http\Request;
 use JWTAuth;
+use App\Ward;
 use Validator;
+use App\Polling;
+use App\Constituency;
 use Illuminate\Support\Str;
+use Illuminate\Http\Request;
+use App\Models\Aspirant\Aspirant;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Writer\Xls;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use App\Http\Controllers\API\V1\APIController;
+use PhpOffice\PhpSpreadsheet\Reader\Exception;
+
 /**
  *  Aspirant Controller.
  */
@@ -252,5 +261,56 @@ class AspirantController extends APIController
 
             return response()->json(['message' => 'Sorry, something went wrong!'], 422);
         }
+    }
+
+    public function uploadPollingStations(Request $request)
+    {
+        $file = $request->file('file');
+
+      try {
+        $spreadsheet = IOFactory::load($file->getRealPath());
+        $sheet = $spreadsheet->getActiveSheet();
+        $row_limit = $sheet->getHighestDataRow();
+        $column_limit = $sheet->getHighestDataColumn();
+        $row_range = range(2, $row_limit);
+        $startcount = 2;
+
+        $data = array();
+
+         foreach($row_range as $row) {
+            $pollingStations = Polling::all()->pluck('polling_name');
+            if (!$pollingStations->contains($sheet->getCell('D' . $row)->getValue())) {
+                $constituency = Constituency::firstOrCreate(
+                    [
+                        'constituency_name' => $sheet->getCell('A' . $row)->getValue(),
+
+                    ],
+                    [
+                        'county_id' => 18,
+                        'county_code' => 18
+                    ]
+                );
+                $ward = Ward::firstOrCreate(
+                    [
+                        'ward_name' => $sheet->getCell('B' . $row)->getValue(),
+                    ],
+                    [
+                        'constituency_id' => $constituency->id
+                    ]
+                );
+                Polling::create([
+                    'constituency_id' => $constituency->id,
+                    'ward_id' => $ward->id,
+                    'polling_name' => $sheet->getCell('D' . $row)->getValue(),
+                ]);
+            }
+
+            $startcount++;
+        }
+
+        return response()->json(['message' => 'Data uploaded successfully'], 200);
+      } catch (Exception $e) {
+         return response()->json(['error' => 'An error occurred', 'data' => $e], 422);
+      }
     }
 }

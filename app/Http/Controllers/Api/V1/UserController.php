@@ -92,34 +92,21 @@ class UserController extends APIController
             $validation = Validator::make($request->all(), [
                 'first_name'    => 'required|min:2',
                 'last_name'     => 'required|min:2',
-                // 'date_of_birth' => 'required|date_format:Y-m-d',
-                // 'gender'        => 'required|in:male,female',
-
             ]);
 
             if ($validation->fails()) {
                 return response()->json(['message' => $validation->messages()->first()], 422);
             }
 
-            // $user = JWTAuth::parseToken()->authenticate();
             $user = User::whereId($id)->first();
-            // $profile = $user->Profile;
-
-            // $profile->first_name = request('first_name');
-            // $profile->last_name = request('last_name');
-
+            $phone = str_replace(' ', '', request('phone'));
             $user->first_name = request('first_name');
             $user->last_name = request('last_name');
             $user->gender = request('gender');
-            $user->phone = request('phone');
+            $user->phone = $phone;
             $user->role = request('role');
             $user->allocated_area = request('allocated_area');
             $user->save();
-            // $profile->date_of_?birth = request('date_of_birth');
-            // $profile->gender = request('gender');
-            // $profile->role = request('role');
-            // $profile->allocated_area = request('allocated_area');
-            // $profile->google_plus_profile = request('google_plus_profile');
 
             if ($user->save()) {
                 DB::commit();
