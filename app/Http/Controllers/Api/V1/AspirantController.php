@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Api\V1;
+
 use JWTAuth;
 use App\Ward;
 use Validator;
@@ -11,16 +12,16 @@ use Illuminate\Http\Request;
 use App\Models\Aspirant\Aspirant;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use App\Http\Controllers\Controller;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Writer\Xls;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use App\Http\Controllers\API\V1\APIController;
 use PhpOffice\PhpSpreadsheet\Reader\Exception;
 
 /**
  *  Aspirant Controller.
  */
-class AspirantController extends APIController
+class AspirantController extends Controller
 {
     /**
      * @return \Illuminate\Http\JsonResponse
