@@ -18,6 +18,7 @@ use App\Http\Controllers\Api\V1\AspirantController;
 
 Route::post('/uploadpolling', [AspirantController::class, 'uploadPollingStations']);
 Route::get('/access-token', [AuthController::class, 'accessToken']);
+Route::post('/test-send', [AuthController::class, 'checkIfUserExists']);
 
 Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], function () {
     Route::group(['prefix' => 'auth'], function () {

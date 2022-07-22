@@ -28217,3 +28217,457 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2022-07-22 04:51:12] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 04:52:12] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 04:53:12] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 04:54:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 04:55:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 04:56:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 04:57:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 04:57:40] local.INFO: {
+  "access_token": "eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiIwQzE5NjhFMTQ5MUIxNzE2NTk1RTc5QzA4QUE3MTQ4RkRGRjMwRThDIiwidHlwIjoiYXQrand0In0.b0ySGXKNx_ou8NA-AUC1foUofJZw6a7F40E95hHqesjN18_hlPORvKdvwt1rRp9Oj5Qnx67YM7Ga1VM3lg6oi1kycDEC7p1-VbvjpOTu2p67A6amfEzL1idgEMcMmyxxN4wlVXo26kQEhwFpiBAwaONIJD7gPI-IVWnsF5D7oQ4WuK9UejilyJMn_1U3ZjtvGPy_J1AfC1qeLqtK5RaNfItRailRnQEVnPMs96djjwxDhI6uaZfrkagv0XlGJeIPi4oaEvLyaTFzcgo4C9XTir0Pcl_o_uIRGXTcnJ7_4jjIdzecfqh2HA9ifXv7n4D_nXz_pYB2W76qjom51J0KGiIW9aB01sooDT1__EL-XZrKG0H7waX1OHBMg4PGrXPtfvBBS-LGfFV61q94qdYObzeLbLjQPAMm_usIbiluy9cvsglQEiO9jR2xbJB-7QXfas0GIfHyF4Etg35SJiXzzM_QRenFMwXso3wHn9FrKU9HvtKh55zwa89z27WZpfZwH63BVs58YPsVOrYt4BWm6CkUsvH278WVGJ-GY9yLVYx6GuKl8_9aX-yUh-kJ53vZuEIfjyQrg19afUNvtPoo2mln2KNpMWEtiV-yU89XutNifKsr4zsEEpd7mqX-hiRPTe5ef2k8zf0mv90dWiW-fgQWTrgx7BVt-UwzvUfE7ac.BQXPk6o_QMx6meaGinCaLg.FFr2YOhXJGp-tncjmqZH3l6UJjleGpwJ6kQ4aowS_hih9M3tsjDXDnbm7WTz3cEFO2jQKPc3hqJxYaeHC15X81iDVlc2ZLit35gWU6FoTK7ggA0IMxxHDifJUR69qkOzRMl8PTuYZKk_XJtBtls2OfNdDC-E3H8Zj-bglDdCVfT8nBK6t5TvPeLU_LrDQOYKdk2b64IlrzJyD0-m9G15GY-_5S065GWOVJq_j42qpgTSa1D5qttRnc9WbuNXVn_FWTRCRIAr0Jrq2tY0EVMtej_n465qpnrssrOhB9ytyfAweNkUpJCgV9dSzTGHIABCWt7-Z7bDWdY4e2jr7Q_DQQjTbaP72zknbmK86qBvicA0xQSWPpRjFjYUaOsYflThKXZfHUA1iomyv3Mdgibwn0fgoNZCR937nzoJAsKJzyYYvHwUxazoL1yJ4nbWAoyxge7fi343JsX-ae3BxOeqzN2B1K-yi1fOn5kka8mhOeKME2MEfF-z_4hPdBSzoGj1etx2aLpP_0B0nwWWMJxHZfYgn8RNKUhyYsWsdkZ8J-61QjqKQE3ysFsw6P7ud6SZDI-fDrpQcQjgfLWgr-1L2oEicHYx8fxAjdoFfzz-aCKsvJf37soROaUGy1eOzjHLHKN0jo85Bk7ZxW88GaT8WqKRxVokrfEHv5S89FXWHlkQ15k5remSt_yAjdCQP-mPhTdXCmDG1BVfH1M5UZhVsU6Sh01ERsLW4oHQchX1Ze2n_ieIOec_ST9e9-lxB-lFAx_1BYvJjFi67xfFWPbknJQhKC_yxhxp8mEWsQpVu3f6frqDpQ7nvjBGYxZ9IQ53fSVf2kgJGws47us6tm11xCWK0wGWA-Plo36-dtgRoxTuuYQzjPMwn0QbWQaWPTEKaqxkPRCL7HLUM9mNzJtvStwbRXGVQf24LjFWlwplGURrAIduvAwuLime4o0DmWikq7gE7PPEfoOXOn1MKXDCy3x5SEjNQJ1DRDzcHaJEV8QhNMhDc6JN1_a6Iw95c508ovk_fNkZ1wd8PAhoEXrFtY4tnlaNLOljo4hsxDjSZabGD1S3qvT_OMjr2QS6f0_ITwGzb3axEZoJ97bEU9_9jpI-kZDAR61LwtC5f5Iy7P9ZThliUmf-cW4HbPCOTgmCGJGbGX9wDWVdzeFCf4ZNiNtnuYzqwGksUhqzwajdZesI-KeIgHicgLetJFjBCD48YGh8aK1XmFORm96IDh5lCcuwXjwjkUBpagGsMxrSw6oTrtX5lBGgQHIC_jNMqUbnQ3pupxpXsT94DsdvcGheoGjDRMFUHbZODv8alIgRkFGlRGAcEAVM9UV6iaMC5UPCjnViX7cEMhotGIHObRnxRYgjw1d7Y5AdVQNRdNRYthDlbnt7_GSkvNsITOyRE6WLxyXr7b7pJlM3ZeVK1QrWUn-ip2ZEEWuO6SGOsRba7QXzpK2qBz13dW7to7dpWYUxkX9Aj6E-hwuMHeBTyplqQ_8aSCxX4OT-YNSk0BZPiabqXdMgWCmbFIWJiryKnUpP2Y1lXYTuGEaIO7Qh159nLXqTbB1JxGiQtlvPwrBaz00OKN3RL8Z4NwmTVS0oXO74.hsaudkqLGawSjXdnHANEzEKoQZky6aWA8S-mtp4pN1g",
+  "token_type": "Bearer",
+  "expires_in": 3600
+}  
+[2022-07-22 04:57:41] local.INFO: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /public/send</pre>
+</body>
+</html>
+  
+[2022-07-22 04:57:41] local.INFO: OTP code has been sent to {"Phone":"0707137687","Code":8113} 
+[2022-07-22 04:58:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 04:58:31] local.INFO: {
+  "access_token": "eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiIwQzE5NjhFMTQ5MUIxNzE2NTk1RTc5QzA4QUE3MTQ4RkRGRjMwRThDIiwidHlwIjoiYXQrand0In0.gYRN3TV8Za6RA7e6Vfmt6WPN-xrDmgmaEHwiFSeS0XMPA7RxwvqxzU2NgS9CiqQ_C8ofKysAgTkf2VEiAxQcnE6b95jMi1IPW3TH59ch0vJCQfhZEhNVY3LfSPr_dDkjk04WBA1LiKB-oLlASckAG9ems9mT1nmum5xDubZ1k5V-SsHzGWPj9ptupTAtA0zehWwK_DQXB81x0qsQmkuYWt-aD2pAa0D7IC3qG90HiISEQEbd0UQVsJoD2gJccL6iGc9Z1jCN5GEzJuHZJ_5sLZZ-5GFMFK4ZAyaa5BVI7v3T7vCDNJd-mVB49cl3-_-8vsWAzOZ9ejkIjcJPyMcbCQ6oPRmctoLcKDAg2esYFhGnxlsehsT5BRprcw250oTeK4Z9ZS_gu-PhpcOq6mOj75fO2tJwrOalySCOeDAOGY9btmL82eVFjS-Ow97Kd_A2d8jete-eB1FBDIOfkXHz8ZQrGwm58Rwk73dE84KoTHm3wWzzfzaVhSgOln_3O2LFRzrouzlLa-7IDWIlKpwxEsSgQ1JXvd53wuApnB7VI_lYkA8VF1ILzBdYfeWt_pYdbls5LTKzXqyQA-VUXkI6oV1dvfTv7t04JOidm_lD-7b-yar5tUuQ7Bsn2aJn6swM4-yn9DgiBCLadYn36lWnOc-QL8IfT8yrfNtiokT3-DQ._C0v5ZA8FMluWFRBlcMI-w.VIbTn6csm7lj5KHSzAcBue7nNMn9-Jcm2fZrau-terlEn9mtMX6UPVzr27wVEJsN4mHDl3orySy0_8o-pRkrECv6eiWhaIvdqpL7SMYKLlVIoq0i1cnnE4kShC0R_6ZdWdxAk_kfPJDnLZ7qTC4ixW6Tn3bhAEGDO2w9EQuNFF_GPsyBcpPj-8gTyf3bGrqYbBL0_tapBFnJZDDklYVFmPekufueQZqTUlcnQ77qnl8wOaiB_mDOWEZAyDPC70rZYBstTpW5UAU252dY5ys5Goqb7KtFoBnLdUqa9UZRrig4m3HYOF4-Hxgvy9vgrWQLbtXo5hli3c9qHS_SW9RlNFKVsUYZ_f3RfCFVEFNmAcdsIdAVPHFwd0k0FYXs1GAkFzBv0XvfhQPx_xe2f0qXJmu5icK6jwVLBUq0s9uu8C45YqxlGaidFIvB_pqIsy2xG-55f7Dy5b7Km3neFryUy1qLFmbK8jSOr6k8oNy_c-SPYgKdgF7MH5N_zJ9htcXbT4kQ9mL_yWHOk-yPRZ3QN9bUfmSBiYQl7pp_v_DEzk6UvLHsun6HLDtvXEfgtB4i5epJ9qWESzrtz9REukRAx0LOA0VDygI1dBNLLvDWkeu6RvqVydRqXhxOziTNeMhc2Dn3LccIrRhX9EL3x5KToFSgchk_nNfkDw4D8zvtXAR6u8qvMnvXnV-WZXM2iUaX52wQZr-YYVtdY3-6AuqJHOoAjdhUEg7plHZcAGeZCfgiQO_zk5MbjvFTi1OXGFKqOtcSRRG2abpEheRE2H5vs5jY5eOkMvh3v2eELBVrWAE1FVN3edZtppDGA7iJtvFsi4ORYC7jiRdv9ab4ZR92aKq3hajgBjzTlJuIcbpheB3z1-cRxV_-14fSMesr-PMs36E6AXdmKAKHxOMInHNK7gBQF263Ggfies4uFX1NZ9L89o5TdvjcWAZOtUcm1CUXdnbt7bNVuQPmTElPYX023ncgFp633_FCjwVVUNMdjfWk8hOM7ZlxoXUNh9MTaBNZawyTNN6F_1QDqhnuP7jJEbOrOiQQ4yeqpwtq4mICKFB6g6aS5rBdT8akwYcTWxG_fJueon-01m6w0BD1bggbl-Nc908S8SgWilI5n6SuodAqqYrRRen59b5FQhE8PxQ4tzpt9d9cc4R4h73-03IdSfNEuKIbnIGyxyEvySJgqiS0LbDY9P_os4EqQaK8CTNwl-AWOzxEfeo3guo1Tw-2SRA_3_AWgz3RoB7AnVwGKkOCzAW1sB6mg0ggDCuqlNlKVNrBcpXfGmYOevYM3ePsD87BS7GaiNj8Eor8LWFJ6Js3gleii-YY3H-MoYOmTY8l32Inwl4K-jFqnizK1C3Q6kgMgHjAgU9poDdgKIpsbP1oUkqVdRYqkdqcaEw3EXQGO6v7P-Rcx7g0Vl0On2158hvA1wcWVl64cGMh14jMf7bFmRG2GaGipZ39fdGNQAUVIYfowCEbDrBlqZoAU6CFfb2hCjyOVShxru23yl73-WT-HGULAXnVqnfpeWx2Od0HB27rE-nppJEreWOjpi9MswGtVEz0rFIOWQXgWb8vt6kHPRJuf-VZWSuih82hJRFu.KK-oXfCNngGFhfeHw5CDoLLGrVVFNrsrF-_ffH2sEtI",
+  "token_type": "Bearer",
+  "expires_in": 3600
+}  
+[2022-07-22 04:58:32] local.INFO: {"detail":"Authentication credentials were not provided."}  
+[2022-07-22 04:58:32] local.INFO: OTP code has been sent to {"Phone":"0707137687","Code":5107} 
+[2022-07-22 04:59:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 04:59:17] local.INFO: {
+  "access_token": "eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiIwQzE5NjhFMTQ5MUIxNzE2NTk1RTc5QzA4QUE3MTQ4RkRGRjMwRThDIiwidHlwIjoiYXQrand0In0.R9Xd2RtRvHqpK5Yeyw1_u3Hk-IBmPakPjCbyotXdcn4RaArvC1A3-dIbF0Ntl8g-Apf9omk5DEDzjxZ7GHGhebWt4rlyQNFspWkPir2jNGlJRj8W-yAoOBF6DmhHYyzZgKKJrrzw1sxdKaFSnOtaVGi4TsuraItA9eXnXzZPwnFpOLR8tD39S0TiQAu66R7pKqgxN36znWVQ_dDnO14EDbZHNX2IPGwbLlvfndhtCAePgan7lUvq9ZkAABWC4bab__qrlMvEej3y4wjVoNPmUFjBXYpS3x9jo6XSQRhOyEdrTFeT5G7Q0i_cMfhJj3212BpVRBXW1wVf6gmilpHwc9ibTTkChHcK-ODe56GGWZLR46vAfxoIMvE2dZNTKuNm-u4X3yDmdN7GSap8hZ-3-robX1R7TQ4Lu7jEVUzPpSbGCBPaLuvL88HdPKFhSpFYS5rY9QyTtjjxtuEDTJ75ZNqm4mpPXlxTPZYM_TscRrtqvGhijYQ--k-eOnSwBecUB3F0c1XyuJgvfa8mYOnsZ2ST0RrdwZuT-oCmICZpsE81qcxtfpqaTI7LRbo5_jZj-3ZuUxBcfREq0RAYF4731clfW930u0riC43i_LF5k1gOcU-1AKwdZztkD4Z74qPnPYrYUEIc4pZD36aNjWvGfA1koWvh6GJVBNIHOuT4f4w.QD0bD7eOFPztVr7Dl23cSg.D6fV9g4Gln6vYiIsanwKLtlxhtkJh7RfQmm7MFxwdiPVUe2kFE8xF4WmMQOPkS8JVQOv1KStt7AL8tP-mfzSPVWJPMLWhN_NNRdej2gbbQNXh5R6-pWF8yQZvIOehrkjB_a6iiqoXbNvZUGN1IVJw3XZJ_6ds6tVt5JoLZ03iRZYekDL1cL6eLvqOGjUGzsS9ZjQ2Nq0P4UKkWshgvPk_P8k1VGJ3taMhgH27IamAxIvv6vxk_lLeXbtB8Pu6G43aF-Ra5RzCW36t4Asq9XF936DJVzeuud6wWG4Hl7-idVFyC2sbmeK0JYcJw0tYo5BgePh-udbpIMtE2LHdwdVJRymzGva3RjBh0E3BUuctcVHc3y03FqG_3o_4RCTT19BPP3Onn043afY_yitnRGLJvk-QmJSwQZcV4jIo4X4FjeggHxUGCqOeywwjBFFEfH4qn3Pw38BSyVk8IpPj2tLTlTMad24G2jj5p4--IblTwglomxSqwSfegFztwGWR4_U6hJLc0cns854fmhCMjUutMZ4XbYzTdCX_ZR1OQ0lUL8xadOSDkYi2cfJLw_-HszNDn4lPlz4s1R-dgK30SEyyRVUsGNziExvdSys5b3amvvdsSD_zKonQxvJneerGvwajrmVI1bV69dDIpOkuTXF1tWIgrZvwKXXKQpJWmn8fVfmfHbEf89umgWI9eZzTWjFUuQjh7MaVse3xckMzRviWv3Nc0gOKT5TB33DoCOEHiIExEv7238hUKWQXM62-QmU3N1qjLZ9KFb51SUtqmrVxNp7GfZlMYT4mhKbnkEqzCXATsqSciLMaYIDBpSAXB4irw-Df9tHES7ifaioa5S070XXtjtHk8nlSFPeJKPfDA3uEVLKPtbWSggXuNX-Hbh7RRRlu3OPVaWz6WMcUGaKpWHsG3TLULrJEj_swXi6lvJDfGrbS1JhFZjEZmSAaa3NF5aKZFlhZZHLSWCxJMJdS2-pclvpuXOPnZczXpsbm9sblhR6osMAmqdzclPTm74dVX2SMZIMBuPKZ2VpE59LKqZ_yROD6aR_kk3_OSsu6rQaeK_asXjxfc6mfNSSt-Y847xnoCrP99vCjpf1m4-o5XaNxtgJrcDdXoLq9aEG8vrt5ZZoPFWmjtqIFFRs9rG-Ar-BUVNfKdE37mRDXPrHN7wHSTVUATDhbYYqY4P2f7VQ8iHalTCdo1TTM5G5XeIssBlrACNt_EedoE_WQUC9F4u_QcSDw-Hsuri4VitDYa6le36BG8KUkYyw44ix24W_cN0vvcEDVV94Idr--72zb2edkCCFkRlxu_UygHx_nc0wZuriSVZNiKV9n_D1vyJZ2IE8WaD9lyd-GR-YTswzJXGeQoDv2titAcKIpUXpvPexAC1FryZ069qnHRajEe_2azf7HWMvZc6NhHfaLdJS_evLP3AjuPpLKLBv_jSwbu8Q6NzDUYGGN9_VVpCuMHv59IjpJlg6Wr6p7TtmOimsH_HLCa7drcU9yT14SczZL7HXadbcm8QUVHROG8g3e8StzK6JhvH3dNx0gnWGMexYrW4z0uDENRTYE7kpxjHtIM8viHOJGxACyHFVKEZE6uro.x5oQNyNuHAzKgA5DbXk1Tlpoz3tdKNKSQs7cFussezU",
+  "token_type": "Bearer",
+  "expires_in": 3599
+}  
+[2022-07-22 04:59:17] local.INFO: Resource id #472  
+[2022-07-22 04:59:17] local.ERROR: Argument 1 passed to Facade\Ignition\LogRecorder\LogMessage::__construct() must be of the type string or null, resource given, called in C:\xampp\htdocs\projects\laravel\electionmonitorv2\vendor\facade\ignition\src\LogRecorder\LogMessage.php on line 34 {"exception":"[object] (TypeError(code: 0): Argument 1 passed to Facade\\Ignition\\LogRecorder\\LogMessage::__construct() must be of the type string or null, resource given, called in C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\facade\\ignition\\src\\LogRecorder\\LogMessage.php on line 34 at C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\facade\\ignition\\src\\LogRecorder\\LogMessage.php:21)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\facade\\ignition\\src\\LogRecorder\\LogMessage.php(34): Facade\\Ignition\\LogRecorder\\LogMessage->__construct(Resource id #472, 'info', Array)
+#1 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\facade\\ignition\\src\\LogRecorder\\LogRecorder.php(39): Facade\\Ignition\\LogRecorder\\LogMessage::fromMessageLoggedEvent(Object(Illuminate\\Log\\Events\\MessageLogged))
+#2 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Events\\Dispatcher.php(381): Facade\\Ignition\\LogRecorder\\LogRecorder->record(Object(Illuminate\\Log\\Events\\MessageLogged))
+#3 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Events\\Dispatcher.php(226): Illuminate\\Events\\Dispatcher->Illuminate\\Events\\{closure}('Illuminate\\\\Log\\\\...', Array)
+#4 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\Logger.php(210): Illuminate\\Events\\Dispatcher->dispatch('Illuminate\\\\Log\\\\...')
+#5 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\Logger.php(176): Illuminate\\Log\\Logger->fireLogEvent('info', Resource id #472, Array)
+#6 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\Logger.php(123): Illuminate\\Log\\Logger->writeLog('info', Resource id #472, Array)
+#7 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(584): Illuminate\\Log\\Logger->info(Resource id #472, Array)
+#8 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(510): Illuminate\\Log\\LogManager->info(Resource id #472, Array)
+#9 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Http\\Controllers\\Api\\V1\\AuthController.php(96): info(Resource id #472)
+#10 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Api\\V1\\AuthController->checkIfUserExists(Object(Illuminate\\Http\\Request))
+#11 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('checkIfUserExis...', Array)
+#12 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(239): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Api\\V1\\AuthController), 'checkIfUserExis...')
+#13 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(196): Illuminate\\Routing\\Route->runController()
+#14 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
+#15 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(59): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 60, '1')
+#20 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(687): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#22 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(662): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(628): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#24 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(617): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(63): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(140): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#39 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(109): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#40 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#41 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#42 {main}
+"} 
+[2022-07-22 04:59:52] local.INFO: {
+  "access_token": "eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiIwQzE5NjhFMTQ5MUIxNzE2NTk1RTc5QzA4QUE3MTQ4RkRGRjMwRThDIiwidHlwIjoiYXQrand0In0.AkF7LlofpX2dSEiLU1eRjVGvD6ZzL9iwoVDc_SHZVJ4ECHud7NycWpuvAxZbkAdELb_hD7boJ5V-Ee-icV9pycZfiVoguWQqvE8vgM_UfGV4hC4BC7YixB5d8kLiKYNWmChdHVNbmz199IBIEcRS3lmTlxAB-AYxARs0oYJ7kNHx2EU6b52IwkgYeCuQ8KOcKOBUrU3jTLpNYVof5tjfdI3PPL0uhEWXu1hCOXzNZOTsje2IsgMEJr9oho0oBxQcPDPuW02nnebsG0EI7rjGOR1lgEHV1ufkqe2hNY3prmb47YyVTEzyNOxlGzcz2PtvhyXTQsYTK9adAQSjvzRmQjFFkJPkMFhigz84X8D6q1nw3RKouvxp5wjpzdmzNtQC_sRjyV0v5fxiYOXRlkXv_I8Kev7lg5AUmdtS6aA1MO8D9getBFlOE3MG6NE3aUBYj1sxQBvvVYT6k88FhJ-UNn9KH10w8P6CRE2Y2Zu-93cvRsgxPjKtggHqTR7xpc1pIJ2bRedgNejZGvJECQ0HYWJJWC5fYclXXDfuY-k4oH46jzWWCCUu-3GFZctHUvjsMhSJnw6GA_0SJPRcKD_Qe5F5A07A-SN5da1AsObdTiLMcnuX1jP7gA5T6yOgIi1iwdUpwE8Ass-A7UcZKAQQ6OsANHk-Jcl_xVk96siNs-4.NNMtkb7t5nywRb1Mwkx5TA.reA73514olscutIGUcZNNDqHS24JePPBVeQXLcfmhsHfx-GLxgGIaBf0WYz8f-cnFzT35s2HrYixQP5_NX1otDrg6ZQyXRaPx3i1oVA1GpkRiC-bSQkfIk9OpDaULua2sU7XOFT2JYWI-u8QH-Dx_-mtrpVPpltT-Q7rCPYczRITDjY3HVVZirw9AmHzXC4H9Rp17eWAHyXUgL_-I--tZH23ZbJvEjlh8oJg1FSx4CV2OcJ2J9aIo3wja0X8Xzs9ZeZ8_LNu54wsO8k_t9AUAWI2yzzPR-9hmubAca2h16pew8cjvnEDMYcVGElDrqzDlrDIcn7WjzcH7G8S858T09RtFUttP3_wAT9StFpvT2aBVxs2KQKc90yT3vMiveV8MJmCYjb4BOABXWe6llK24bffLCZMLmVNgX8tGfyXpUmmdD--eFhe6RPPGUFhzCoq2zaIZNaPRqXkpm4eQ0lzM5H49zioLUlyjC7y6xIwPHZ2QLfkQRs8f0XT7pGoG2i5j_AQeAnDP5SWUtDIjKHveZl3fulEsV4pmc6h93jzF_JOfHC_5gVd2PN5T1EbKn0b0gnAbNcEewuPE9EcrmngyvQf3AooFK33-pAEJBe0Yi6YVEAtzXJzz82E9HH7-HcGQpy7I3yJmXg_zhRiIewXJ14-sExzY_wlonXyl8pMgelVaUcrz5BVOoNiq3Wr8uf8zy4hN9Vq708F92d9LE67ypJhbMwCLLIEhwbPHWWC7wjzB3_hafrjReJwpTz0w6A2ia4NlgfamqbGPNOk504mkyuSnOVUwYAgEaSlVlzHvhicYnGBUYjei4GFQcPZ1aFuko1g8z6Z1D5xRRdy6IZXNKfH2a2LBTqN2E-ZQH7bvOOtL_1q8Pb_1dsJhbbY7BTDqPdq2W3YH13c_AH-YZ00Qvm80_AhLi5SoR_rWO0QlhcEUQWxW76vumEoM7rVSMIYq60eRzMf1XhNIIw8PnMF-Ks6k4-IML3xW-3uthrGnPxqwBTz2Gonmf9a786sQsV3q-xoWbEoH5AfUdlb1ncnxveC6sattYZFxStIboAmIQaxYX9N5m1v_DjCstCJHMv7wpwPTiQT50fu50qwD9ql2gOxnilYm0_QEKSG-QXyY7Xnc1VyBjX5nBYa4kdWvbPF7_VoRIVS18Eo2ti9I0Kv3yr_u1FH4ct8VojhxmXvR1HiZCKtwzSfq-Ta6wGjHcea35oiil_oZ3jwmsxcqFPMz4lwd5lTz65_V5hMYwpZq4r_cw3gftlhpC_7pj6_l3M1ioOFlng-ZBQCBSY5a3zDr0ElCJ2CLwsJluD3iXt6LlDes253F97fy6UkEESq2awxk54IItIPYJtGULn61WvEMxozAxZRdSr16C7XHSs-ooRJx2IZaFYN0wzeLjBQDQOWaabyt6lh_oZz_gK_-0kFFcBf-x18bKFzI5T_lpDfqP0Cru5Bc_i648Z8mQbzAGUsChTADHdPZV7EcFGx1ZG78H77AocxsH6bdgcj4dcjN6EjCqQV9pGGIc7EJmO7JVvzAxKkBqu3UIkwfSJ4abw8Ajx-BTxuc9MW1oqGUUt4LKN9oQEZssl_Pu3_owW7P5ru.yktDGUtiQr_JtlJY6AnN3nU_W3NNCLXEsncsly2gtBc",
+  "token_type": "Bearer",
+  "expires_in": 3600
+}  
+[2022-07-22 04:59:52] local.INFO:   
+[2022-07-22 04:59:52] local.INFO: OTP code has been sent to {"Phone":"0707137687","Code":4415} 
+[2022-07-22 05:00:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 05:00:42] local.INFO:   
+[2022-07-22 05:01:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 05:02:06] local.ERROR: Argument 2 passed to Illuminate\Log\LogManager::info() must be of the type array, string given, called in C:\xampp\htdocs\projects\laravel\electionmonitorv2\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 510 {"exception":"[object] (TypeError(code: 0): Argument 2 passed to Illuminate\\Log\\LogManager::info() must be of the type array, string given, called in C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php on line 510 at C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:582)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(510): Illuminate\\Log\\LogManager->info('Bearer', 'eyJhbGciOiJSU0E...')
+#1 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Http\\Controllers\\Api\\V1\\AuthController.php(96): info('Bearer', 'eyJhbGciOiJSU0E...')
+#2 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Api\\V1\\AuthController->checkIfUserExists(Object(Illuminate\\Http\\Request))
+#3 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('checkIfUserExis...', Array)
+#4 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(239): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Api\\V1\\AuthController), 'checkIfUserExis...')
+#5 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(196): Illuminate\\Routing\\Route->runController()
+#6 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
+#7 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(59): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 60, '1')
+#12 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(687): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#14 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(662): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#15 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(628): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#16 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(617): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#17 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(63): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(140): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(109): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#33 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#34 {main}
+"} 
+[2022-07-22 05:02:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 05:02:21] local.INFO: eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiIwQzE5NjhFMTQ5MUIxNzE2NTk1RTc5QzA4QUE3MTQ4RkRGRjMwRThDIiwidHlwIjoiYXQrand0In0.pD0QHloXF7OCPbz5jfzD0X_Uu64L2JFcpE3wzTnfHx3pDiiCaflRBASN4D2wZScHUANKTnRRBEonxu33C1IEkFR2uPBDl6vaXJ2qD1NrUda9s8QlKITsRt1wSWbjt5sShimmKCg3O3zdMaBkf0EM_e3uSD34Dsf7t6JiRBbpS5odtkFwWIysVf1qSReWSLCQwnl-UkoXOkU8hqL1Bbfn7eTPtmw_Js83QrZzT6ptGtEe7Cgw6F3q2oSnwiBfr5DGHWDJnknW5IGi1xJ68yWp7cyaeIXpLCgd8PxI3AjFY5OxrZ7t1d34rRhOMTcoD0M-_15VGg3Ehj09iOsOyg_qi38SXJmnFqoQNYkyVSVYviEaOxeqhWHKkISPGE2RVGOOmZNlqK9WGaqFf_xxwF_iQ4mE5-yNwhFtJg9ibWPmNMd6hwP3X87xlH2OZ_WFknH40FYSYEBCr2wkPztR1bSmrwS0pvlw7_HWNflKaDgmT5ItygFrx8hY1OtvdVDm2LfukJezMbqPbjaCRiwOh99HbcckFdThr1pIKrJZmJZSAWzkEEUiF9fRPp3v9GJdGjN5zNNkRo9QXTiozu7FA9UBXdEGQN63ERXTqQiK8ORdTxpRpd1PrEjvO0Ka90pTrmoDO_nOojaw8mb2F6LgKZAYomDTShZ18Nx878lfjl_LP7Q.zK28dNuyRaWoo_Z0nWDQcw.Yg6ouEFGoKoZb-Edl5zTrFandgBP7hAEWx4nauow4egQCUkzAJlQpYC6tEZh3lCbHu_Zw7u7BU87BQfn-BE-20bt6ImFplsTuLt-GKyKZ-gPXYGeALUMS3JV_ypoOysgim2drTQiaWQDYN2ZhEWwtC9itFiHDkLWnjyzUjKRz8ZKTZJaaZN7dt53b71x7OGKWojXijr4cjzykcTRxrHtgSm2iyyg3oq3MfqnVPsPwypgkwa9mfJQzG3wTTZ_VlBPdpAnLFRwy_ZgG9T1hSY9RVEX8GkMeukIt1zMcbGMM8m72YfBd5_2SX4Tqh3r86EFGYPbzdcm-NaVqCaCvnFXFAFQiRooZjgrtn3SMg6hxocHyxK09QkHG42N42M4ghGf0iVBf1YYTho3if8eOF878tMVS3tIL4O6bApkoXRVdnxOXqlaIQ2sffKKix16A1IqZy_ySZGRMd6qo_DZeKQZbw2M1NzgtVzSgbarF-RyamaniU-gby42PYLFL_CT0JFs0vsdfGtF3ZWnmazizFoPv5OQJR_P0I5DHisTiagiHNi2mR3Uw0GzwQ27meX-gKgcKq-cnSivIPxoF5F_A6bwkjtj3ueugRxYHPJUnSSbC7CEuMo4wvInB9fDNeuEarpDh2JxdX8luSj3CaGuGWQ617N0TiSOryxFGji3t3VnMLOoJ6BwZMz1ZIIdRr4LOJQShOH-KsEO4yzaMnv8qNCpA15UGwuW5hCDAJm7QYk_v4imJlor1xxmjOZ99ATp5U-nfzXRoDUL5NZGQEwr0DWZoe4pshs4O_3jJbDSwteTxTDPesVkbXIxtjcLV6Lg1tYBvEBROdiu9z1We3l3KtOaYtHNHvXmPsCShOLn3rw7T4kGNZWPc4CjdKKQN56l5hRWD29itTYpcenb4875xac2gBXhO2cszmuAgohizEly6zZA--llqNpI_BBukN0IzPCcoHEy_ZRPAnLcb8xRnEf5b7W-MNHWm4u_WJWzFN5ZQz1K9qfPiieeMSbZMkfCaDX9kHZHW761RHYxetSx7DRMGbsHaC8yrNatu2XCPxp5Hhdq2BT92fXZjAJe7diDjHh9ecfqamxv9wDor1fCFoOFlQyI59BK-lSB_VfncJ7CObVXB2pPLWBS1aMARMeT6j4ctHx3OcV5Tm9DdeHWaSr_mlpsbYPtaaAmnOjpsxiCvZDW3zVUNM4NG2uUsa5k2Udps2H67tGw3T4moKCrNfATn9xCimv4jWQY7Un5opt-989TPv2FB-UgqcLTt20urDPqlnqvaHkSCwelWzPGMPxzxxXqZGU9BA1uoeeaCN5s98lIVlx3i0sw9ln8F3Vi5AHUBBSnYTcOQSxuzlEBzNaE30OM4qZhFWw15q-VdXyeH95b8ZiE0o9R9bmc8xbnCJ3zgVSOxZyfECdI0CkQgWZmkqyA7exiPN5W8qn0RkfhYbhzzZUJyUMV1kzWaLahaLIrDArceSvCSzqqLw3wv33jN78Fom0uT0lTH9ICkWwk_qz0-aBQYOfZ4FnxPmB5yATJX89SjPt46j5VcqSAs8GkjjEeuwFxAXV3aebZ4WD1tPkuykpydf99TjD83_Hu1eaC.udpQfGToyqcSYLu2eJS8R1P3KzTPQnAdPu_IHrEeTlU  
+[2022-07-22 05:02:49] local.INFO: Bearer  
+[2022-07-22 05:03:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 05:03:18] local.INFO: '.Bearer.' '.eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiIwQzE5NjhFMTQ5MUIxNzE2NTk1RTc5QzA4QUE3MTQ4RkRGRjMwRThDIiwidHlwIjoiYXQrand0In0.UQ7ImBwYaZ915JFp5OnHPhgPZT9XuAojnH2uJvL_c0gGuxAmRdo6rQ_oWOHjJj_XRUWj6O7S_YkgxciRvEfIq2HGc697O3xr6mGxcYughPm-Dsj0z9S9HObpqx7sZVX4guvQvjZ-6CWmPcj5SKf0Thh9E_tWCYksRhnwP1tGRho90Jze3rAvA7hBLRDFV9yeViVG9sD1edV3hCI8EkJ2ayFKFZBv_aav1PU-dRIWUL5QxScgxSZksUuvXcb-GqMMJMf-P61PDXzEW8pXGgTYgJU6HsP1Is4KJaLDDQhct3U0lYbRlaKCMMCdqGinDIYpw_YJv2iYW922zRrUKZZ4XQg6dGeNQBP534yaNevs1wVfsCr2QeecjfEmvkMhQB2HY2XCcwSTCnCUH95f00VHeFr84Obium_4fiFw-MNgE5WHHoC-DEqZdQ-KqxOdGzAWh3g6qQ6IL1lTMRsRyQeWCvAnWe5Yb2Ty05a0_DScLYFvNrxVxWeQguF9XTCK2bNC2qula513XYFQOhSCuWLIADnExgxRV5Yq0dOobOgY_BdUl4OTxKjmUbAebWJMtMkvSAk4-RoC8CcjMFtCZ6A3KHeq2sKiRKi3RAdZ8Omdd8VnHG3ULLpgH5xDCECzlq5_L7XHUmYJuRIgIhDjavrizY06Muqcq8ddmUifmerzWL0.sNV03yK7OzSYhf9-2yshWQ.NXoNzLRcNlUFjPnouYQGJRcga0bEP9fuC8dtN7pUowrKGWLGS2oYWGlCd3tv3__qeqeosX10yWYvgOK8kSxk1PqKzGQebEdjwu64nCXnW-GCzHe57oQ4chmijn-d43MsOuecEet-Pzxu__YYMyF-awvxpSDOVWJDVtiifRn335ryqx78xFeStmSPWZk65J2IsJGW0MxU_V_5TtrfUsMGGwf88_UZb2fjYtcCYbEQL9ta0r4FUtbGIydrKTSMP-JhOyZjlGM7kkrTnTlnzjQZEu5r0C10oi8txWYMNWmHCRvZTYbZxc8Biv2r8-vXbZnHRKeATxGqFlphP6c8YWLOAVXMWa6UlcrsNVNhEz4U_W7wEDMkx3qu3p-ODg91mIkJHCy2h3Ju5S-zj4LKM46pdnsdnrw80GABumEOmXASJ_O-UQlJLlznnqEj7M6Svx0Py5NxfPXcvIV22bubMaghC6FPCfHJZqOsSwCzAvVDgcg0WHBgUr1-Qq9eAqKACCo77omCKwp4r_Ndf9lrMZMkOs5_65scvGJTPgypclBmfTB7YxWUhgpcIL_5jLOlbN8ZVhyDMWBL79YOBjsslpeMv7Kpq16k7ci4sf0zjMHuL3xHfv1TkDoZ1OcdURP-g3LWzsZmY1Yg_VN47zeQnL1KWu38oKhPlCQvGHCEu16dubmJ-I2ILSCap1BlSTOKsbz1jrZZZTqPg9qx-zuBVmoy23j96SGtx2rzGXlgLoZ6zd2949GVC1uKaBhSOw2RZFJfejqr2XMEXnSEVWvwrBN3N1f6AAA0KvnbBGtq0aHoxIzte7Hp7iMyJsi7uOWckESbJJIFxq3gK3YXsDn1HmCEI_kcNvYrAMyvRyuHDwKYdrgKr51MNkvSXD5rLdwoG5vd1XjVHLE8XI3I4fz5VAWfm43BkcdVCuLDUzgd_IDEa-moVUCsQ5YEQzir8Jd7jnUvp70-odcgOgqql3dTsmLPfn1VJGlzyKpxWQpJdoSY5y1oaHa0NhKC64H0USTL8tdB1gH36IyOSuyOz2ECYdOGPhPFB1nX24IdfWTDXXIdkbBH5GPZsjbEiLwK1baEjISJvsEtaeDXy7RSXmf0privQy0yIALHrgCyc7Eg_MS7A6aWtOxDYOnSZ0W2HeZ967l0_6-_aeB9ySTUK00RWnB-BHBB7eBscHYCctMF-bP9mv7jA76TVIzNu8gEhRZYxlwgN4NCn_CazvO4AK9vMEOjOKRrtVA_wAr5c0Sg7mAwUt4SKM_dXDguujrTI6fAhqXQyQ0d_JOAFoAzjaPvUXVS-SYIsVCSxMa8m30VCo6k4Cw0mzVxd-_Cqn35TAO2Ianvdd6MngsIGuBPDfGCUWzj-PqM8zK1g_DhrJu2YV6f5aLIGy7yrvKDISzp8FwzxKY_EZG3158a-cBuDB0MnlY7yVxFQZFoFtbz2vWx0R7BUw1w3uIlQ3CMhP3rgvBOmcpWqx1oqdbL2J-Xisb9ff5vUgbehO_DB1fr6SOA1XQ2fnsC_NTvj-BMg7glTrPasQmptbkGrchq3JZe4JPp-tvPx9Ynv4fHXSV3SaWPbTeAmOJD0JELkzNTnB3L12mVPpx9.CBPR7lqWJcNzXHaPGffal7xBrhXKP3DKsJwya6hky8k.'  
+[2022-07-22 05:04:04] local.INFO: '.Bearer eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiIwQzE5NjhFMTQ5MUIxNzE2NTk1RTc5QzA4QUE3MTQ4RkRGRjMwRThDIiwidHlwIjoiYXQrand0In0.I8QcS2v-CjW9bD6X5y2eWQJMFRXsNM-zdpLM8J2KYOzy4W9C6cgUIOGBraus1Zjjrhh4EJdDnhl-srBuf8-LsYbieTdWzKIvqibo9ethcdATB_nw0jSbblAAPvi0ohEyLx-YvbonudMwnEbQN1-zRkNUeYVxnB_9oWJhOC41S2pwYoeR_LpdzPTS5DqKLgAKY7aZu9l_Ft1TO00Gi1NAj6LzssNmWy_UfKjL_LPz4uvC7SdIOXcW5AhtPwDLxu_XCMA176dp2ZtH5tfwsjXtE_yRXpkxhBzw560IIXOnG11RXQyU8dlQ9ptQpVDRGmTvJsLxt8WdqrbBMRCX0w27DAcCJ3XygSiJ98rDFH2C6owj4aEObo9yEzosCIZZ2mVvc55mbAl1v7NY12-wdh6hSC3rC1vqByx9_6k-8xFNcSMukVgGftHLAXAbkx-5J0Fj9bhPBf1w9iIbsppfAOBRvQ4JT5u1ToIxZonu0abSA2lINK-hOZ4rhducV7yu86hMQX0Uno0EhpcUvniReKRRwvhNsNqKkK5xsSJ41JO4wjyqDMTW8v1mCVfHqWTIBpQEo-KnIj77HbUuqX1Usn4ZaH1ProCEzhrbAsbk8jQCmvLz9t6L-AMgNiwZNob9aPVCjODb3UO6zXLHJDcmZttXt8goH191ZsXxjmVu3XR3qXM.dbEFgyMDgjWg99SFRhn5xQ.qlVSkHjCkW9xSWqglw9zZMqBSunh_V90M4WNW2rE0TMjtlT26MFAz3Ocj5fttzaG5fpUYY9E-D5mUby3J-bjhaazIt0ecX4tuAsa1_nhFxdVwo2CAyCe9Al2_8Gl4p0O_m30HHZKT7-eiw6GK77HenhPIXR7L_80fD1Q85X78v6mN2F8XqQmHvUMYjV1GVUiYWgL_hkDjySSq1iLo3NMnilVvmHYq0EvfaKuK5-xz6IeTsDybkAMKM0hTl5GmSApCivu4LAe_C6C7PMVa1AIKC4mSTldF7Y6cDepJfpdnPMG9tXORBss5PAtgGhqT3Jyi0013NEfLWs_6RHvlC0qE4JEZlyUikDoho-hi4tzDyMK2iFeTHjEn59r5vEjAGzUp4VGBkpRMDSo6aRCPrVAXEo8A8MnG0W-pN3NZ6Z6xf9nlyBZiEOIYJvFmJ360OCZXYKmJpQqH7Qlg8vj8uEwP7yaz4lfgv-3KsJX-SOgnBb1e2cEK16vu9JbbhR4w2Ss2psnp85rRImz44EOdnnbc0sjIXerwe40gfl1meSQ9Dxuu0o5agdJBdMFad0Br4fvq3DR1GyqZ7XmycLcCl0VosOyT_erSana41cNiZT2xuxabvJIplP3NyjunF0ms7m8ZRokmmf8GFaPBedTtJdtjeo3dp359KgVa9w-Hm98zbhq_QASAY59P1s4zA95Ma6cjmS0JW5Ux4Ym2VRJrlqYPwicIIzWPh09A5S2WNx8MvggqN-Gp2WbBnJUWoAhktdOF4mj-nUY0ErmiMMCqRx3cJAu7pI8T_mDCm9XESlBZiBenLrkwqOCFR6SnfgDBtKx_eZx3uoE7vNds3uNZxkuoYSXbv587ebUEgLhOqFiPr90DoqKROwKqqbTM-Y3I09v36BONf9nZ9MJppZq-SqQLe6ZqPrxfU15Yusdm_42axV3wnGWL1E-NRTAeftvMYGvUndYiywNdDQYtmeecHufeIiGSmR5YOEBhG0z4y3O6Vg0f3XyularGsWWM4_PF4TSFfvFTE-qfyusqKJvfJKiSGqlL9938B_Az1WPndgjYW0YJ966TKmyRxqaVTRm8k9EMxiXfkAXjs-xdTExTUbowSktOepdH6rJMND6kxnbxNAI-RUTq53Ra3N1nCd8MQ4fOCaG5ikTJnQdjQW2sA_AYQgoNLYmfDt5SStFqLA8WIKnhPpMH8JIPsmjQB8-sXr7HP_YmPWBAX8e9E6glhB5saC_V6pOJLRUEAmEsBOVbilyjX14_toj54JJX_PheswpiXJ2q61KAMWFEcuzXLSIwP-jDtJaLOWa_wrENRUF37Vz65tO0Uv-PD5EYxDWiYoaQcp1kvJtRJHcZPNTLH7V5ll0PKwAObJrbxbseCqn2vLm8Qc2D8m94BWgJzwLH1cvvV5SySadUcjtTFPNoxOWAXW73e4-pB6OIOJFnB_FbbI9ZO5O9naZFxaOuNVKJTa472Y5LIQ4ER-zte1VT0DCHFE8XETahEDUOrF-si_U81mq_8NckdR9vwbNQkkmbG2sgY3TWZ9Ln-RsdQD-dsaM2myI_LqoD347qe8r4ssn1ImAMvxMT5DlJuMiPBJP6epE.n7J3GhsliFu-GQFxVXfGfglgjZp3LlN6EoQwGoXfVjA.'  
+[2022-07-22 05:04:12] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 05:04:58] local.ERROR: syntax error, unexpected '$token' (T_VARIABLE), expecting ')' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '$token' (T_VARIABLE), expecting ')' at C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\app\\Http\\Controllers\\Api\\V1\\AuthController.php:90)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#2 [internal function]: spl_autoload_call('App\\\\Http\\\\Contro...')
+#3 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(809): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#4 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(691): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#5 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(796): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array, true)
+#6 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(637): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Contro...', Array)
+#7 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(781): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#8 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(253): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#9 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(970): Illuminate\\Routing\\Route->getController()
+#10 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(931): Illuminate\\Routing\\Route->controllerMiddleware()
+#11 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(702): Illuminate\\Routing\\Route->gatherMiddleware()
+#12 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(678): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#13 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(662): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#14 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(628): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#15 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(617): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#17 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(63): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(140): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#30 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(109): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp\\htdocs\\projects\\laravel\\electionmonitorv2\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#33 {main}
+"} 
+[2022-07-22 05:05:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 05:05:49] local.INFO: '.Bearer eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiIwQzE5NjhFMTQ5MUIxNzE2NTk1RTc5QzA4QUE3MTQ4RkRGRjMwRThDIiwidHlwIjoiYXQrand0In0.Dt04X318wfsO7R6ZokA681DJ--6UkHDeXdMVobMnJzukgJ6LT_y7MuOy0iYnsr1WYFKQhn-xRZEyj0LLnkHiY_UF1BxXbWXv0nJeSkPkhGhDV3DUVnKt7Gn95sehZfP537pDEkG9_kUJrSNNbKR9QUDjkwiP2EvnEcE8vYYGscBxULjLTpwfQJJEv0sEkjJbvD3Mc0ymP6K6ROQVQfUg4x_vrZh8haOiTy_HiMTfX1jlITZ2h2_TIWF8vkCvDqDA0AyQIW-3xQh9-Ya4zi_3TJkv1GIJzSFMIzRyOhb1gYZXINqkXyC1vxvxHBHAO7JGeKRJizcsjIxCIytF-HRE96PKeDP3RZe1v75WVi6lKt0-wItBQCJwSpceWxTX27maB59ph2Vv6dTKbYx9PLHyQNL1wCL1ICVFiDJ3haMTJJCnJjpkLRgwRGXVHxnN-z1h2eHshnY3upZHh34-xAKLZQYNLukf49biUFBT-u0IwoTjRi3EcbsHN27geIFS0HchnLyGUD8Jxnr89EPMs-0gvEYie0EIufiJ9NaAbOqBsZBGyYxPtgXNtXe3IDtvtBaHigpUs2HNPmztkxhhu7qj842eZX6rW7AB7BQhvRWhIPMjoA2LOAi2MD4iwsSDO3rDbWjqc1CR5Dxuo-3oEDokXBB0R_FEq9xXRQUsda0bRYc.XJNiXj6TJ1hLEGkVq22tiw.2_QV9aNSgLTBSp1Hf-9gqy_KrgeYWlyjauSzXymMp_SzRDsqw7_bBcj28XHcGfSNPPJwmZUHzeFNjYghw0OdObk_BFUE2K3p9j_WJ9ExN9UD7zvmLg1RLspf_fUYvLmguBEC1sBNvib50aLgTYDhbcWpt9cq2iXv5VknNt6ORdSNuCvIqp5whHNr-NNbUPHVtKdxDcIj2B5TIzl5bGqI-QTxm8IjsT5OXl89Fhi2z0qjU45ijtTS6fvBvH0vjrkIRTKFUGzPoy4GggbIYQStLLJQp9gVqYYekrS7tOFllQC2HOMpf1XT0qmt_magRotYzMBfOsR3MUarde4Or9Lxw4F9pbrsDztGWMqgxYod--EBuwr9e5f-DNVTmrJWOhLTSBYJhHAMCHHM23oY2sp1s9FJiO1xcfjzEOouF4AOC87QdY3h997GkJBmHLfQ6Xo5T-bTg7BVgbqaTtMzp_9MB2ZLEU3cRWGm7rQ82kbEiBDYfEHecKFx9hOigOs8uqLCIFcjrdKaq91ybnPQHM4KCelatz5SVYJASInZepEccRGfpj6VphvQ4xFWO41srx7AhpAy5ev9Ip7e75TqVH9-R1Jke44Jg7A_X5k3-UqBdjzH-PJfHnfqcuMPWTgxI-17Bg_r30YaVgycHVNQ0z9fAVGJ6zOPzM4xOH2Tyaj0Kpc2PAbDfWT-gtyDrvaD9EkFc15uXAolW_GT5zjbNVp2wyuo7RVRCzGL9rUVKL6b65Qj80ZR53LqYCpA4nlUzMq2BRA_7mbDl9MwqCSOefUeLUCuIQ-ngWjTo0KnFbHAGnBpQmdkmYBqyiX3m3xAuLhs1mdA0lk8DjMt2i-sgBIn3SWIMrFocnqsFF7aE3TaAMqTP_hvf0GMJud_wdVh5Lswg0UinDfNVZ4okZx4_-wiswTh8f-zoeJ4gnvSlTwL6b2NeXAgowxrmPBpPZuAyou-kW4xmlUQQtxHYjGXxGxeOD6rAAqkfaWlI_VUcs1HWxLwnOAdiQbW8OKxKx7II5FmUF_iW4frW2GZyImpKiaZLvudTARrxWPUplUsAfhP2wRUDCvb9QK4xCn3kyw2eyKVb2lXPft0NN0HaqW9dOLD3keLIOcHlwWlycJ4AYPQyfIgtpwcwKsQWjMjtrM7SwW-AlFpOobYnRF7Ow63KldlKz-EHLMtuYqiOs51kWTtaR1o35Pcu6g9KlnU8hriivKpCCK6liNE8JKYRvvvsdVV7kHKf0mkTJcEf9uUMRLP2D6UC39WDw4EZxuXJY6HKA9pPDEcRP5-zjawuZ_K1nrrgwG4xBy8yzOOJlS-b9vIMLJULCt2kSqK4N0dPswqVOCyTC94LSee9L47rmYD2WWr279mWKVC6CriX8jUcZU8sE1PpSP_EdXkmVvu5nkGr44iM-XhEOHy9VgSZDCx1wz-UCZ9XP43SWNAsD28xVzjxDZMs4OVTqzky7vRJeLPrUOBFMOgwyY3gKfpQNTNiyT2KkEr0gzRJs94JSwar3yMQpecmOaHeYrEzFQ19-Op8PcIOUmCfzI3RyW-5c9gHdRGwLSCHVW1DRnUc3xQNe3KC5Lm2o6Y9mMIOmeUyXtE4xYC.2M7S4xr097sb_OGxkKM7L9nxCYQvWx3MLcfP-KwSB24.'  
+[2022-07-22 05:06:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 05:06:21] local.INFO: '.Bearer eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiIwQzE5NjhFMTQ5MUIxNzE2NTk1RTc5QzA4QUE3MTQ4RkRGRjMwRThDIiwidHlwIjoiYXQrand0In0.NTu65VS5ukl_MMRccL7xu7EWZHdz797npOb6-BC1xXBid_Q5WqcRl7n1kUtx0JsyE81uCwvCZs8t1xXIsl8UwqLgWL_vK2ioGoU07nbxUT_cB2CL-pSiRTcodAakR9mOjzMa9upvYqHOL6mI4Hnfgu1ELzyVCj1ar144jXn1OzsOPUsKvM1dJ0fN-crLtUnkUd8bsxwStNIEGdo1pqlYYsC7Fq3zKKEKiE3ZMbJiznXsGE0kVSJ5RjM_9vdoZ8Lof0063SwD3GbrptXuQvxQMkXdsvbbkLyZJM4LMVs8lqa0G5Bp_8EKP4KTvjZYuPpUkVj5qzeMv2ONqr0pCGABKH3355AVht7prjV6NqH2NGKjSjZnvfe3pCyK6Fg-xtVg-26yJzYeleAVADMq7LxM1zY0iWiGpoqSva6LsR0Nvh9kKUob90mf9RGCnrN2JG_Sjf85X_H_IA0ZeVd8XQ6ihTYXTmPbbYRxRC2IX4fnHF_zSp9FBLI-5Aj4cnFSk7K395O0IwPoilCVVA2gVy3DqFbvBnO81cRvaiIqrf6kOmmCCdfNuCsM0YU0vZrUQz9ykmCuFnY2iFFxPBBGcCyaSw7jX4Nii74DrOBwNOhGQ3XBERUAQUL60Ng56XyrZW50r4FLvkhyiIN9BdxKIXFYrkt3D4QCmLyAK-oJbF4_YUg.PXMXjdL08SPWNjtx10F-tQ.FUzPp4KLezUW22f31DvBJ2MzF2XYMhnFgLYqqAdOtsgeR4m9omX90Rf245ox8qA78foJh3uxywy8SS0Zyny02AuxTxFAWR4MDPkUNXGFaxnedw9oIaBDf4sh0Csu5E_gWXRRHaUwD-gb7Hih7dAxRj4cBF_-SO87DhLQbnFD0KRsT95ZeJk6URs5KOs6Q7JWN3FqwBhLMxPCdPC6oaj0PAqM3-8_NK87nsbnqdkrYdR1c_s5E2ZAhoJRsxDZ-4-8CXIpLtUBAAl-vfTS2rEjbXpSuTGBokiReRUIWQntvzjdFIK1_-SjHBo1WPbnH-VhIa_tn0HMB2DahBc58r7gSiVge8Vy6Mn8XUe5_jCSIgIFAVoeMptUbmzAWe8yAqA8ll6jtXDVXBRNZxaj4bJZhaYHb51h-dM1oNRVYkrLYPxF462qgucs7LuvRYl9Iwbb23p13RE7eVnWckzyn4IIik-L2RPorwToH-eKb6JsC_iYX25RBFfvi_4LP9E1NCzxpaedAK8glZ3A1kfU8R3pHxGbXRR3vrxn30AqaubtGV5dNWP77jnsMIUKfq7ej5C6orHCBBEK_VccV0zAsWVRtK-DegsvTOdGuYQyXyD5bK9WMxRNtNmEoUZwrUxSXDISBMvQjhQTfFzMXH-2_RSGts3P1_jZlI7rPdTqmyQ0vO8TeGAMWXHl_oeFjTTMI2ca8CDO-Bw5ZuTW-tiYTx9XIFkieOCupqz3j1Z0LIgdQ4eUZREjEobPkHsTnAb2bbF4n3q-wkimaKvqX2bBdurga4FzQMpKwp6ona3UBinY8FFkqrWYUwts3zEAxci6kq4goT9e6AinARPK8927mZCbVxXhxdN56Xpadh_cz0igWsaLcY88ZBbcZkV9OW3a4jSHBiHb9_IA8U4i4BRHCCNo-bkci98KRglsKK_w-pAwUYKLRqe0ZveyrV6He1HssEV5ENFbCGeT-5sTpoxP9CUoGUAKhT_wisce4Laev20dZEhWy26QNro81sZxyVN--O04M2n8gYDx2QLsW1u1O_1dQxx8eQzlLrS3eL1qyDYdBS5XkCk_0eUMXs4hhZv1Go91lIX_lIDvO7P2Ze9y7efNcFM22vIjBz1CSZyLVQ2Tt5RQ22UzedMQqh-whDN8QYCFAXcpdO7sSlRLOirqxL6kGT4oFSgusaciqdOVV0x3h7rMWK2GfdXhVGZXgUILplQLPJtXC-21jq7kPfwd_AjpE9AT8BDffGzCAGOR1b9GHVhIpIS64AzeInFsgmsWoo7yYvx2G-9MyqiXnQs5uuYM-x3eSBOesxfMPjkGT_n5yqURPJDeZ2qHHdi2tsZB49EjvcEx9jDcNGCBbMcCQZiALgHMbfQ4Xia41hXxnbAS5Gwiijqs17zoz--cuDO4gIvRtYg2-B3EbIJYnTO-7soO9LWu4xuQXpkJfTTCG6ZBrqpGAv8lsRulCLRx-gmsXr5p19P1s_TK4BbVbp4wGB_cPQbqer2052ym6Ctj3MCWWKhMH3zuc-L3IEefa6hanj4w2J43Cwu2fXSycqSvnKz5HfD08WcdewIeMTXNq2Sl8HBYObnhpJ_Lv69LInuW7QGE.1ugYFapZZYJs0nK6xD16SN7IFay3M6ogtkI1FNvTOF4.'  
+[2022-07-22 05:07:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-22 05:07:26] local.INFO: '.Bearer eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiIwQzE5NjhFMTQ5MUIxNzE2NTk1RTc5QzA4QUE3MTQ4RkRGRjMwRThDIiwidHlwIjoiYXQrand0In0.Z8BH9kJeenl4sVS98hS40lD0w5Y3wJZseouAiuec-QDebS-5Zv_QqQPkxEwVng8sYQDOgsbAmPCOAPCoO0PCkfsNi51tRUblS-EPpjemB68QCXAPWF6usCgwXqc5IIaRlMyG6ilej06w5h1T9FLgzf5d0hBOVqcFeFmIa5kJJl1QlPt8UtoAk0HB9sIskHz6BEiqJdPs-maNKBe-FPczO4agejMnsXZgvAFXkKpaysLpX12Rh3XlX3iYSnXLmQDwUbAk-uim6nZsar8W8ikXdQC3SraZi3q5ZtAmGFkD_h9xPLGHQz1g3L-MOyAqClNKGyw2iNnJYsPhiODnIyvVfApsrAdVGNpwFCM2sTbRfiHFlDitFpl9E1Dnqqw_xb65cVQ6iAKwFkIPX6Juk68BOU8G8r9o85sfaXBdf-nznalQvoD_0CmvkvR3LHbosLUWaRCwRo95xnIgoNYKQwYkfni67XdKv0jlFShQlkeZ_TZtP3sGci_b_uVYFPv5RDKygLGHk6kTFajYhHLQR7qyziPd7fzMQogAzrd0WIGhtl26Bp1i56LvHkgYAkfQpklpG-FytfkG5h7Z_4Qcc0T7TclYeFCfZVmHWXxkczuR7aYiIrpB3C2HSHETJveWYffE0BjNty6akQSCoN9qDEhXXbrl9L6eW8uHanzqtANeSwc.aPtLiFLAGRxc49LKUskn1A.hxgKzfUeIC5826uhRbRnv_J9WHIo1gVIwUe2PDCHnwoju91_QAm-FcX9_yvjRL9QL5TsENK5DmaZF6oH_0wmHaPsqJOVLyTnmeHLhnymID-Ll-upb0fPr-mgyOKR9wEraTlznrSGJRDNYP61eMh_rVYV8I-xiPlIJJ6dT8ckSHaQxRHgAfTC8PNJrNqiX8cUwdpZ2qxF5n5DGvnVdKGH2rkfDyIwazinhSVi6h_H2fjcQBcu0FuRUt_WVWslUKCQldrdSrXyAUHIpOEeZOU986EggwMKYhSQIB3fsHedrY_abuzyxs_5EcwuV3ryKJBF1gizldOYOjuNX_JNUuCdIg1V6lzmhNFezoB5oG8ZMw9mdkFRs9dK_zPQfsGjPhS2vjMyz-q43pdSLR7fKvfaHzQA6NZValkXjmTUyvwY2caX8rA9lR1QDaWFq0wQJjgeJiSEtfEIWF3SVwPEFbi4xB-fq6dR2LHf0Eb-TR8JQTX0QEz8Ep3s91uVUy79_ddf5RrB2Yrj8zUzHO0ZoNOZHftAH8cq3XtGaQS-WMaV1Qc_96hYASdXnkWgPflhQXEzE0YWso9D1AA9vKsdr0pCx_wILwfPDHQMwS6OfED5TM1zhehsOAqkSnN2ujr_5eiWAaYIg5qeHIQXIyio1zOG8ihvPSGVyLV2R_UTKhIUVRRZNBlKggyDslsZTv-fCLjCz9vfUAB1WNb36tPdKG_pK3ykKpwyn4o02pFeXw-bxMwlypQnIdsjGyJmJEiRD2ge_yaxcRqQ2qm7uFmOIIdktM9KnBQgHcnS1fY7WsPZ6HnymiEPzND9OD6dcU2rfKMFjwSvcLbcGkrAqoyiLZx9EoO5yD_F1oWdsRp3zOWB_ipfzy_gxB6qnqbp5whEjq32KVQK_lds-OLHidCUxfilQ6YVVB8LhxK88xKtNfCgz_FX2fhE_Y3NjFBHyDFzN3VgtfxVJuGk0ptJDFxa4yAPHUR3xpLSXDVvDWR00P-jShX768n7GE7W6YXfBxdazfBAk_KP5opYGpGUu8qu2BS_6lzsDCBMBYDijg1BJ7vF2kd5lz7ix7R3ZXFU3rzrONmdS-gT1--hnCf-TcnP-lXZmHx7RwiLO-CVm5kbts5QD4IgPT45RADntgUAfkELWCiSlTwYe0Nu2EEnwh69lg2v_XvSa6ZAHWr18oetsm6PmjVBOGW4z5dJxRlU18GeXvcJPoyFhrzgE8jYpfhVvH3YvLaBNGukH2Mf1fw1rJiwH2-NiTnuuVm5-YsJ1FTdZhuk3BPqofgS2h_tpzfnJl0uSQrxflf7YmZYjwV1cUxV7sWHXCd_FNu2WLQWwyO32CYjUOpz1ZGXbc7z4aXQsfIotVqglBhyCeXculDHzE1UUUersoqrwYfJmHsyv97HJiYIfllXzjCh5azB0jRkqSJr1cuEnYdOEBuNGcGSNux8kWNFakVJMyhZwYaQ5Y_xZiqkHBlcMXV7aN7JA9STPaWTdZyhHnngvxdhkOMLoospK_oxuLms7Ta7goe0VAa8vvNqtsf73g5kyfY3gmQgHC97ORoDPluwg4wJnmTiqmQv82dWr_-5qlzO1L-DERYUB2oW.XM4LGFbLYZTFo8A6aZFvePSRlRBz_X5cW9ERUD8TpjE.'  
+[2022-07-22 05:08:13] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 

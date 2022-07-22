@@ -41,7 +41,6 @@ class AuthController extends APIController
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         $curl_response = curl_exec($curl);
-        info($curl_response);
         $access_token=json_decode($curl_response);
         curl_close($curl);
         return $access_token;
@@ -72,7 +71,7 @@ class AuthController extends APIController
             $curl = curl_init();
 
             curl_setopt_array($curl, array(
-              CURLOPT_URL => 'https://swift.jambopay.co.ke/public/send',
+              CURLOPT_URL => 'https://swift.jambopay.co.ke/api/public/send',
             //   CURLOPT_URL => 'https://prsp.jambopay.co.ke/api/api/org/disburseSingleSms/',
               CURLOPT_RETURNTRANSFER => true,
               CURLOPT_ENCODING => '',
@@ -88,7 +87,7 @@ class AuthController extends APIController
                   "sender_name" : "BADILISHA"
             }',
               CURLOPT_HTTPHEADER => array(
-                'Authorization: "'.$token->token_type.' '.$token->access_token.'"',
+                'Authorization: Bearer '.$token->access_token.'',
                 'Content-Type: application/json'
               ),
             ));
