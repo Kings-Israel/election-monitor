@@ -69,13 +69,10 @@ class AuthController extends APIController
             $phoneOTP = '0'.$phoneOTP;
             $phoneOTP = str_replace(' ', '', $phoneOTP);
 
-
             $curl = curl_init();
 
-
-
             curl_setopt_array($curl, array(
-              CURLOPT_URL => 'https://swift.jambopay.co.ke/publc/send',
+              CURLOPT_URL => 'https://swift.jambopay.co.ke/public/send',
             //   CURLOPT_URL => 'https://prsp.jambopay.co.ke/api/api/org/disburseSingleSms/',
               CURLOPT_RETURNTRANSFER => true,
               CURLOPT_ENCODING => '',
