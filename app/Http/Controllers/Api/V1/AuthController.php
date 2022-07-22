@@ -44,7 +44,7 @@ class AuthController extends APIController
         info($curl_response);
         $access_token=json_decode($curl_response);
         curl_close($curl);
-        return $access_token->access_token;
+        return $access_token;
     }
 
     public function checkIfUserExists(Request $request) {
