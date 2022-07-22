@@ -180,7 +180,7 @@ export default {
         this.loading = true;
         axios
             .get(
-                "http://172.104.245.14/electionmonitor/api/v1/fetch-survey-questions"
+                "http://172.104.245.14/electionmonitor/api/v1/admin/fetch-survey-questions"
             )
             // axios.get("../api/v1/fetch-survey-questions")
             .then((response) => {

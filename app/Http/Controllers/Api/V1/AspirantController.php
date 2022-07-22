@@ -187,38 +187,25 @@ class AspirantController extends Controller
     public function storeResults(Request $request)
     {
         try {
-            // $index = $request->only('index');
-            // $index = $index['index'];
-
-            // $aspirant_uuid = $request->only('uuid');
-            // $aspirant_uuid = $aspirant_uuid['uuid'];
-
-            // $results = $request->only('results');
-            // $results = $results['results'];
-
-            // info($results);
-            // info($aspirant_uuid);
-
-            info($request->all());
-
             $user = JWTAuth::parseToken()->authenticate();
             $agent_id = $user->id;
             $agent_name = $user->first_name.' '.$user->last_name;
             $agent_polling = $user->allocated_area;
 
             $photo = NULL;
-            if($request->photo != NULL && $request->hasFile('photo')) {
-                $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
-            }
 
             foreach ($request->all() as $key => $value) {
-                if ($value != NULL) {
+                if (gettype($value) == 'array') {
+                    if($request->hasFile('photo') && $request->photo != NULL) {
+                        $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
+                    }
                     DB::table('results')->insert([
                         'agent_id' => $agent_id,
                         'agent_name' => $agent_name,
                         'polling' => $agent_polling,
                         'aspirant_uuid' => $value['uuid'],
-                        'votes' => $value['results']
+                        'votes' => $value['results'],
+                        'photo' => $photo
                     ]);
 
                     $cummulative_results = DB::table('results')->where('aspirant_uuid',  $value['uuid'])->sum('votes');
@@ -226,10 +213,6 @@ class AspirantController extends Controller
                     DB::update('update aspirants set results = ? where uuid = ?', [ $cummulative_results,  $value['uuid']]);
                 }
             }
-
-            // $values = array('aspirant_uuid' => $aspirant_uuid,'agent_id' => $agent_id, 'agent_name' => $agent_name,  'polling'=> $agent_polling, 'votes' => $results, 'photo' => NULL);
-            // DB::table('results')->insert($values);
-
 
             Log::info('Aspirant results entered successfully!');
             return response()->json(['message' => 'Result entered successfully!']);

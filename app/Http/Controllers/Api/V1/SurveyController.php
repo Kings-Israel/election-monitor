@@ -3,13 +3,14 @@
 namespace App\Http\Controllers\Api\V1;
 
 use DB;
+use JWTAuth;
 use App\Answer;
 use App\Survey;
 use App\Question;
 use App\UserCode;
+use Illuminate\Support\Arr;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Api\V1\APIController;
-use JWTAuth;
 
 class SurveyController extends APIController
 {
@@ -59,7 +60,8 @@ class SurveyController extends APIController
      */
     public function fetchByID($id)
     {
-	    $surveys = DB::table('survey_set')->where('id', $id)->get();
+	    // $surveys = DB::table('survey_set')->where('id', $id)->get();
+        $surveys = Survey::with('questions')->get();
 
 	    if ($surveys){
             return response()->json(['status' => 'Successful','message' => 'Surveys fetched successfully', 'data' => $surveys]);
@@ -95,14 +97,32 @@ class SurveyController extends APIController
      */
     public function fetchSurveyQuestions(Request $request)
     {
-	    //  $questions = DB::table('questions')->get();
-        $questions = Question::with('survey', 'answers')->get();
+        $user = JWTAuth::parseToken()->authenticate();
+
+        $allQuestions = Question::with('survey')->where('survey_id', $request->survey_id)->get();
+
+        $questions = [];
+
+        foreach ($allQuestions as $question) {
+            $answered = Answer::where('question_id', $question->id)->where('user_id', $user->id)->first();
+            if (!$answered) {
+                array_push($questions, $question);
+            }
+        }
 
         if ($questions){
             return response()->json(['status' => 'Successful','message' => 'Survey questions fetched successfully', 'data' => $questions]);
         } else {
             return response()->json(['status' => 'Failed','message' => 'Survey questionss not fetched']);
         }
+
+    }
+
+    public function adminSurveyQuestions()
+    {
+        $questions = Question::with('survey', 'answers')->get();
+
+        return response()->json(['status' => 'Successful', 'message' => 'Survey questions fetched successfully', 'data' => $questions]);
 
     }
 
@@ -145,13 +165,16 @@ class SurveyController extends APIController
      */
     public function deleteSurvey(Request $request, $id)
     {
-       $delete =  DB::table('survey_set')->delete($id);
+        Answer::where('survey_id', $id)->delete();
+        Question::where('survey_id', $id)->delete();
+
+        $delete =  DB::table('survey_set')->delete($id);
 
         if ($delete){
-         return response()->json(['status' => 'Successful','message' => 'Survey deleted successfully']);
-		}else {
-		 return response()->json(['status' => 'Failed','message' => 'Survey was not deleted']);
-		 }
+            return response()->json(['status' => 'Successful','message' => 'Survey deleted successfully']);
+		} else {
+		    return response()->json(['status' => 'Failed','message' => 'Survey was not deleted']);
+        }
 
     }
         /**
@@ -235,8 +258,12 @@ class SurveyController extends APIController
      */
     public function answerQuestion(Request $request)
     {
-        // survey_id, answer, question_id
-        // $user = JWTAuth::parseToken()->authenticate();
+        $user = JWTAuth::parseToken()->authenticate();
+
+        $answered = Answer::where('user_id', $request->user_id)->where('question_id', $request->question_id)->first();
+        if ($answered) {
+            return response()->json(['message' => 'You have already answered this question'], 200);
+        }
 
         $naswer = Answer::create([
             'user_id' => $request->user_id,

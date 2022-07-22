@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\V1\AuthController;
+use App\Http\Controllers\Api\V1\SurveyController;
 use App\Http\Controllers\Api\V1\AspirantController;
 
 
@@ -15,10 +15,6 @@ use App\Http\Controllers\Api\V1\AspirantController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
-Route::post('/uploadpolling', [AspirantController::class, 'uploadPollingStations']);
-Route::get('/access-token', [AuthController::class, 'accessToken']);
-Route::post('/test-send', [AuthController::class, 'checkIfUserExists']);
 
 Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], function () {
     Route::group(['prefix' => 'auth'], function () {
@@ -87,6 +83,7 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
 
   	    Route::post('/store-question', 'SurveyController@saveQuestion');
         Route::get('/fetch-survey-questions', 'SurveyController@fetchSurveyQuestions');
+        Route::get('/admin/fetch-survey-questions', 'SurveyController@adminSurveyQuestions');
         Route::get('/fetch-question/{id}', 'SurveyController@fetchQuestionByID');
         Route::patch('/update-question/{id}', 'SurveyController@updateQuestion');
         Route::post('/delete-question', 'SurveyController@deleteQuestion');
