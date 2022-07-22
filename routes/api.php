@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\V1\AuthController;
 use App\Http\Controllers\Api\V1\AspirantController;
 
 
@@ -16,6 +17,7 @@ use App\Http\Controllers\Api\V1\AspirantController;
 */
 
 Route::post('/uploadpolling', [AspirantController::class, 'uploadPollingStations']);
+Route::get('/access-token', [AuthController::class, 'accessToken']);
 
 Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], function () {
     Route::group(['prefix' => 'auth'], function () {
