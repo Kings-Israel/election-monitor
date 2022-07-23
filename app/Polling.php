@@ -2,6 +2,8 @@
 
 namespace App;
 
+use App\Ward;
+use App\Constituency;
 use Illuminate\Database\Eloquent\Model;
 
 class Polling extends Model
@@ -26,4 +28,24 @@ class Polling extends Model
      * @var array
      */
     protected $guarded = [];
+
+    /**
+     * Get the ward that owns the Polling
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function ward()
+    {
+        return $this->belongsTo(Ward::class, 'ward_id');
+    }
+
+    /**
+     * Get the constituency that owns the Polling
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function constituency()
+    {
+        return $this->belongsTo(Constituency::class, 'constituency_id');
+    }
 }

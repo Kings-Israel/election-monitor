@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Constituency;
 use Illuminate\Database\Eloquent\Model;
 
 class Ward extends Model
@@ -26,4 +27,14 @@ class Ward extends Model
      * @var array
      */
     protected $guarded = [];
+
+    /**
+     * Get the constituency that owns the Ward
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function constituency()
+    {
+        return $this->belongsTo(Constituency::class);
+    }
 }

@@ -100,5 +100,7 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
         Route::delete('/delete-announcement/{id}', 'AnnouncementController@delete');
 
         Route::get('/logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+
+        Route::get('/station/{id}/aspirants', 'LocationsController@fetchStationAspirantsResults');
     });
 });
