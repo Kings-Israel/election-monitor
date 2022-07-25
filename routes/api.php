@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\V1\AuthController;
 use App\Http\Controllers\Api\V1\SurveyController;
 use App\Http\Controllers\Api\V1\AspirantController;
 
@@ -15,6 +16,8 @@ use App\Http\Controllers\Api\V1\AspirantController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+
+Route::get('/access-token', [AuthController::class, 'accessToken']);
 
 Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], function () {
     Route::group(['prefix' => 'auth'], function () {

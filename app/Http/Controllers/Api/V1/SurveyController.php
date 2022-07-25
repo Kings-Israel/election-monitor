@@ -110,12 +110,7 @@ class SurveyController extends APIController
             }
         }
 
-        if ($questions){
-            return response()->json(['status' => 'Successful','message' => 'Survey questions fetched successfully', 'data' => $questions]);
-        } else {
-            return response()->json(['status' => 'Failed','message' => 'Survey questionss not fetched']);
-        }
-
+        return response()->json(['status' => 'success', 'message' => 'Survey questions fetched successfully', 'data' => $questions], 200);
     }
 
     public function adminSurveyQuestions()

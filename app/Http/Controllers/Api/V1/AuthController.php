@@ -36,7 +36,7 @@ class AuthController extends APIController
         );
 
         curl_setopt($curl, CURLOPT_POSTFIELDS,
-                 http_build_query(array('grant_type' => 'client_credentials', 'client_id' => 'vEG1B8MF7T1UpwSKd37C6vBZ1UpLXY13O4EddzAb4m4=', 'client_secret' => '412d8eed-d6cb-4d0e-9ac3-68cb422c4e6dY0pUraLquF6lliMMivd6vr6qgQY5C3FWN3+4UBj77Wg=')));
+            http_build_query(array('grant_type' => 'client_credentials', 'client_id' => 'vEG1B8MF7T1UpwSKd37C6vBZ1UpLXY13O4EddzAb4m4=', 'client_secret' => '412d8eed-d6cb-4d0e-9ac3-68cb422c4e6dY0pUraLquF6lliMMivd6vr6qgQY5C3FWN3+4UBj77Wg=')));
 
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
@@ -55,53 +55,54 @@ class AuthController extends APIController
 
         if ($user) {
             $token = $this->accessToken();
-        try {
 
-            $code = rand(1000, 9999);
+            try {
 
-            UserCode::updateOrCreate([
-                'user_id' => $user[0]->id,
-                'code' => $code
-            ]);
-   	        $message  = 'Your election monitor app OTP is '.$code;
-            $phoneOTP = substr($phone['phone'], 4);
-            $phoneOTP = '0'.$phoneOTP;
-            $phoneOTP = str_replace(' ', '', $phoneOTP);
+                $code = rand(1000, 9999);
 
-            $curl = curl_init();
+                UserCode::updateOrCreate([
+                    'user_id' => $user[0]->id,
+                    'code' => $code
+                ]);
+                $message  = 'Your election monitor app OTP is '.$code;
+                $phoneOTP = substr($phone['phone'], 4);
+                $phoneOTP = '0'.$phoneOTP;
+                $phoneOTP = str_replace(' ', '', $phoneOTP);
 
-            curl_setopt_array($curl, array(
-              CURLOPT_URL => 'https://swift.jambopay.co.ke/api/public/send',
-            //   CURLOPT_URL => 'https://prsp.jambopay.co.ke/api/api/org/disburseSingleSms/',
-              CURLOPT_RETURNTRANSFER => true,
-              CURLOPT_ENCODING => '',
-              CURLOPT_MAXREDIRS => 10,
-              CURLOPT_TIMEOUT => 0,
-              CURLOPT_FOLLOWLOCATION => true,
-              CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-              CURLOPT_CUSTOMREQUEST => 'POST',
-              CURLOPT_POSTFIELDS =>'{
-                  "contact" : "'.$phoneOTP.'",
-                  "message" : '.$code.',
-                  "callback" : "https://....",
-                  "sender_name" : "BADILISHA"
-            }',
-              CURLOPT_HTTPHEADER => array(
-                'Authorization: Bearer '.$token->access_token.'',
-                'Content-Type: application/json'
-              ),
-            ));
+                $curl = curl_init();
 
-            $response = curl_exec($curl);
+                curl_setopt_array($curl, array(
+                CURLOPT_URL => 'https://swift.jambopay.co.ke/api/public/send',
+                //   CURLOPT_URL => 'https://prsp.jambopay.co.ke/api/api/org/disburseSingleSms/',
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_ENCODING => '',
+                CURLOPT_MAXREDIRS => 10,
+                CURLOPT_TIMEOUT => 0,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                CURLOPT_CUSTOMREQUEST => 'POST',
+                CURLOPT_POSTFIELDS =>'{
+                    "contact" : "'.$phoneOTP.'",
+                    "message" : '.$code.',
+                    "callback" : "https://....",
+                    "sender_name" : "BADILISHA"
+                }',
+                CURLOPT_HTTPHEADER => array(
+                    'Authorization: Bearer '.$token->access_token.'',
+                    'Content-Type: application/json'
+                ),
+                ));
 
-            curl_close($curl);
+                $response = curl_exec($curl);
 
-            Log::info('OTP code has been sent to', ['Phone' => $phoneOTP, 'Code' => $code]);
-            return response()->json(['data' => $user, 'otp' => $code]);
-        } catch (JWTException $e) {
-            Log::error('Error occured while trying to send OTP code to', ['Phone' => $phone]);
-            return response()->json(['message' => 'Error occured while trying to send OTP code to'.$receiverNumber]);
-        }
+                curl_close($curl);
+
+                Log::info('OTP code has been sent to', ['Phone' => $phoneOTP, 'Code' => $code]);
+                return response()->json(['data' => $user, 'otp' => $code]);
+            } catch (JWTException $e) {
+                Log::error('Error occured while trying to send OTP code to', ['Phone' => $phone]);
+                return response()->json(['message' => 'Error occured while trying to send OTP code to'.$receiverNumber]);
+            }
 
         } else {
             Log::warning('An unregistered user tried to login!');
