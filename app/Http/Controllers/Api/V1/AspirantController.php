@@ -186,7 +186,7 @@ class AspirantController extends Controller
      */
     public function storeResults(Request $request)
     {
-        info($request->votes);
+        info(json_decode($request->votes));
         try {
             $user = JWTAuth::parseToken()->authenticate();
             $agent_id = $user->id;
@@ -195,11 +195,12 @@ class AspirantController extends Controller
 
             $photo = NULL;
 
-            foreach ($request->all() as $key => $value) {
+            if($request->hasFile('photo') && $request->photo != NULL) {
+                $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
+            }
+
+            foreach (json_decode($request->votes) as $key => $value) {
                 if (gettype($value) == 'array') {
-                    if($request->hasFile('photo') && $request->photo != NULL) {
-                        $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
-                    }
                     DB::table('results')->insert([
                         'agent_id' => $agent_id,
                         'agent_name' => $agent_name,
