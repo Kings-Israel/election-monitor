@@ -194,7 +194,7 @@ class AspirantController extends Controller
 
             $photo = NULL;
 
-            foreach ($request->votes as $key => $value) {
+            foreach ($request->all() as $key => $value) {
                 if (gettype($value) == 'array') {
                     if($request->hasFile('photo') && $request->photo != NULL) {
                         $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
