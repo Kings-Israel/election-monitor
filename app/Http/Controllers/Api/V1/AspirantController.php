@@ -186,8 +186,7 @@ class AspirantController extends Controller
      */
     public function storeResults(Request $request)
     {
-        info($request->votes);
-        info($request->photo);
+        info(gettype($request->votes));
         try {
             $user = JWTAuth::parseToken()->authenticate();
             $agent_id = $user->id;
@@ -196,24 +195,22 @@ class AspirantController extends Controller
 
             $photo = NULL;
 
+            if($request->hasFile('photo') && $request->photo != NULL) {
+                $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
+            }
             foreach ($request->votes as $value) {
-                if (gettype($value) == 'array') {
-                    if($request->hasFile('photo') && $request->photo != NULL) {
-                        $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
-                    }
-                    DB::table('results')->insert([
-                        'agent_id' => $agent_id,
-                        'agent_name' => $agent_name,
-                        'polling' => $agent_polling,
-                        'aspirant_uuid' => $value['uuid'],
-                        'votes' => $value['results'],
-                        'photo' => $photo
-                    ]);
+                DB::table('results')->insert([
+                    'agent_id' => $agent_id,
+                    'agent_name' => $agent_name,
+                    'polling' => $agent_polling,
+                    'aspirant_uuid' => $value['uuid'],
+                    'votes' => $value['results'],
+                    'photo' => $photo
+                ]);
 
-                    $cummulative_results = DB::table('results')->where('aspirant_uuid',  $value['uuid'])->sum('votes');
+                $cummulative_results = DB::table('results')->where('aspirant_uuid',  $value['uuid'])->sum('votes');
 
-                    DB::update('update aspirants set results = ? where uuid = ?', [ $cummulative_results,  $value['uuid']]);
-                }
+                DB::update('update aspirants set results = ? where uuid = ?', [ $cummulative_results,  $value['uuid']]);
             }
 
             Log::info('Aspirant results entered successfully!');
