@@ -47,6 +47,7 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
         Route::get('/aspirant/{id}', 'AspirantController@show');
         Route::patch('/aspirant/{id}', 'AspirantController@update');
         // Route::post('/aspirant/status', 'AspirantController@toggleStatus');
+        Route::get('/aspirant/{id}/station/{name}', 'AspirantController@aspirantStationStatus');
 
         Route::get('/configuration/fetch', 'ConfigurationController@index');
         Route::post('/configuration', 'ConfigurationController@store');
@@ -65,6 +66,7 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
         Route::put('/user/{id}', 'UserController@updateProfile');
         Route::get('/user-dashboard', 'UserController@dashboard');
         Route::get('/fetch-results', 'UserController@results');
+
 
         Route::get('/county', 'LocationsController@fetchCounty');
         Route::get('/constituency', 'LocationsController@fetchConstituency');

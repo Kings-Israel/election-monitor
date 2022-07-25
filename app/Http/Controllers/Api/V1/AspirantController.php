@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api\V1;
 use JWTAuth;
 use App\Ward;
 use Validator;
+use App\Result;
 use App\Polling;
 use App\Constituency;
 use Illuminate\Support\Str;
@@ -194,14 +195,12 @@ class AspirantController extends Controller
 
             $photo = NULL;
 
-            info(gettype(json_decode($request->votes)));
-
             $uploadedResults = json_decode($request->votes);
 
             if($request->hasFile('photo') && $request->photo != NULL) {
                 $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
             }
-            
+
             foreach ($uploadedResults as $key => $value) {
                 // info($value->results);
                 DB::table('results')->insert([
@@ -298,5 +297,16 @@ class AspirantController extends Controller
       } catch (Exception $e) {
          return response()->json(['error' => 'An error occurred', 'data' => $e], 422);
       }
+    }
+
+    public function aspirantStationStatus($id, $name)
+    {
+        $result = Result::where('aspirant_uuid', $id)->where('polling', strtoupper($name))->first();
+
+        if ($result) {
+            return response()->json(['status' => 'success', 'message' => 'Result for condidate found in polling station', 'data' => $result], 200);
+        } else {
+            return response()->json(['status' => 'failed', 'message' => 'No resilt found for candidate in polling station'], 200);
+        }
     }
 }
