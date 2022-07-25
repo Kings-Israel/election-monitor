@@ -130,6 +130,11 @@ let routes = [
                 name: 'login',
                 component: require('./views/auth/login.vue').default
             },
+            {
+                path: '/electionmonitor/login',
+                name: 'login',
+                component: require('./views/auth/login.vue').default
+            },
             // {
             //     path: '/password',
             //     component: require('./views/auth/password.vue').default
