@@ -186,7 +186,7 @@ class AspirantController extends Controller
      */
     public function storeResults(Request $request)
     {
-        info($request->all());
+        info($request->votes);
         try {
             $user = JWTAuth::parseToken()->authenticate();
             $agent_id = $user->id;
