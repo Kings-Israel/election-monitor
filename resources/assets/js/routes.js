@@ -121,12 +121,12 @@ let routes = [
         ]
     },
     {
-        path: '/electionmonitor/login',
+        path: '/electionmonitor',
         component: require('./layouts/guest-page.vue').default,
         meta: { requiresGuest: true },
         children: [
             {
-                path: '/electionmonitor/login',
+                path: '/electionmonitor',
                 name: 'login',
                 component: require('./views/auth/login.vue').default
             },

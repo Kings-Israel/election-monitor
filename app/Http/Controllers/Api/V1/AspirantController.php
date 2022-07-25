@@ -198,11 +198,12 @@ class AspirantController extends Controller
 
             $uploadedResults = json_decode($request->votes);
 
+            if($request->hasFile('photo') && $request->photo != NULL) {
+                $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
+            }
+            
             foreach ($uploadedResults as $key => $value) {
                 // info($value->results);
-                if($request->hasFile('photo') && $request->photo != NULL) {
-                    $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
-                }
                 DB::table('results')->insert([
                     'agent_id' => $agent_id,
                     'agent_name' => $agent_name,

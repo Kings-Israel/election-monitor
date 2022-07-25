@@ -166,7 +166,7 @@
             logout(){
                 helper.logout().then(() => {
                     this.$store.dispatch('resetAuthUserDetail');
-                    this.$router.replace('/electionmonitor/login');
+                    this.$router.replace('/electionmonitor');
                 })
             },
             getAuthUserFullName(){
