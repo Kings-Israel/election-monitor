@@ -186,7 +186,6 @@ class AspirantController extends Controller
      */
     public function storeResults(Request $request)
     {
-        info(json_decode($request->votes));
         try {
             $user = JWTAuth::parseToken()->authenticate();
             $agent_id = $user->id;
@@ -195,23 +194,27 @@ class AspirantController extends Controller
 
             $photo = NULL;
 
-            if($request->hasFile('photo') && $request->photo != NULL) {
-                $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
-            }
+            info(gettype(json_decode($request->votes)));
 
-            foreach (json_decode($request->votes) as $key => $value) {
-                if (gettype($value) == 'array') {
-                    DB::table('results')->insert([
-                        'agent_id' => $agent_id,
-                        'agent_name' => $agent_name,
-                        'polling' => $agent_polling,
-                        'aspirant_uuid' => $value['uuid'],
-                        'votes' => $value['results'],
-                        'photo' => $photo
-                    ]);
-                    $cummulative_results = DB::table('results')->where('aspirant_uuid',  $value['uuid'])->sum('votes');
-                    DB::update('update aspirants set results = ? where uuid = ?', [ $cummulative_results,  $value['uuid']]);
+            $uploadedResults = json_decode($request->votes);
+
+            foreach ($uploadedResults as $key => $value) {
+                // info($value->results);
+                if($request->hasFile('photo') && $request->photo != NULL) {
+                    $photo = config('services.app.app_url').'/storage/results/photo/'.pathinfo($request->photo->store('photo', 'results'), PATHINFO_BASENAME);
                 }
+                DB::table('results')->insert([
+                    'agent_id' => $agent_id,
+                    'agent_name' => $agent_name,
+                    'polling' => $agent_polling,
+                    'aspirant_uuid' => $value->uuid,
+                    'votes' => $value->results,
+                    'photo' => $photo
+                ]);
+                $cummulative_results = DB::table('results')->where('aspirant_uuid',  $value->uuid)->sum('votes');
+                DB::update('update aspirants set results = ? where uuid = ?', [ $cummulative_results,  $value->uuid]);
+                // if (gettype($value) == 'array') {
+                // }
             }
             Log::info('Aspirant results entered successfully!');
             return response()->json(['message' => 'Result entered successfully!']);
