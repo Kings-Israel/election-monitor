@@ -216,16 +216,13 @@ export default {
             this.loading = true;
             this.otpForm
                 .post("/electionmonitor/api/v1/auth/check/if/user/exists")
-                // .post("../api/v1/auth/check/if/user/exists")
+                // .post("/api/v1/auth/check/if/user/exists")
                 .then((response) => {
                     this.alert = true;
-                    // console.log(this.alertMessage = response.message)
                     this.signinForm.email = response.data[0].email;
-                    // this.otpForm.phone = response.data.phone
                     this.verify_phone = this.otpForm.phone =
                         response.data[0].phone;
 
-                    // this.signinForm.phone = response.data[0].phone
                     setTimeout(() => {
                         this.loading = false;
                         this.alert = false;
@@ -233,7 +230,7 @@ export default {
                         console.log(response.otp);
                     }, 3500);
                 })
-                .catch((error) => {
+                .catch(() => {
                     setTimeout(() => {
                         this.loading = false;
                         notify({
@@ -241,19 +238,16 @@ export default {
                             theme: "red",
                             position: "top-right",
                         });
-                        // console.log(this.alertMessage = error)
                     }, 1500);
                 });
         },
         verifyOtp() {
             this.loadingOverlay = true;
-            // this.otpForm.phone = this.signinForm.phone
             this.otpForm.phone = this.verify_phone;
             this.otpForm
                 .post("/electionmonitor/api/v1/auth/two-factor-auth")
-                // .post("../api/v1/auth/two-factor-auth")
+                // .post("/api/v1/auth/two-factor-auth")
                 .then((response) => {
-                    // console.log(response)
                     if (response.message === "Success") {
                         setTimeout(() => {
                             this.signin();
@@ -272,7 +266,7 @@ export default {
                         }, 1500);
                     }
                 })
-                .catch((response) => {
+                .catch(() => {
                     setTimeout(() => {
                         notify({
                             text: "Error encountered!",
@@ -283,8 +277,6 @@ export default {
                         this.otpForm.otp = "";
                         this.otpForm.phone = this.verify_phone;
                     }, 1500);
-
-                    // console.log(response)
                 });
         },
         resendOTP(number) {
@@ -316,9 +308,8 @@ export default {
         signin() {
             this.signinForm
                 .post("/electionmonitor/api/v1/auth/login")
-                // .post("../api/v1/auth/login")
+                // .post("/api/v1/auth/login")
                 .then((response) => {
-                    // console.log(response.data[0].role)
                     this.loading = true;
                     if (
                         response.message === "Success" &&
@@ -329,7 +320,10 @@ export default {
                             axios.defaults.headers.common["Authorization"] =
                                 "Bearer " + localStorage.getItem("auth_token");
 
-                            this.$store.dispatch('setAuthUserDetail', response.data[0]);
+                            this.$store.dispatch(
+                                "setAuthUserDetail",
+                                response.data[0]
+                            );
 
                             this.$router.push("/electionmonitor/dashboard");
                             this.showOTP = false;
@@ -344,7 +338,10 @@ export default {
                             axios.defaults.headers.common["Authorization"] =
                                 "Bearer " + localStorage.getItem("auth_token");
 
-                            this.$store.dispatch('setAuthUserDetail', response.data[0]);
+                            this.$store.dispatch(
+                                "setAuthUserDetail",
+                                response.data[0]
+                            );
 
                             this.$router.push(
                                 "/electionmonitor/home/" +
@@ -356,12 +353,11 @@ export default {
                         }, 3500);
                     }
                 })
-                .catch((response) => {
+                .catch(() => {
                     setTimeout(() => {
                         this.loadingOverlay = false;
                         this.showOTP = false;
                     }, 3500);
-                    // console.log(response)
                 });
         },
     },

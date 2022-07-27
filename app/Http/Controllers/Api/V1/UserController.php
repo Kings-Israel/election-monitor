@@ -2,14 +2,17 @@
 
 namespace App\Http\Controllers\Api\V1;
 
-use App\Models\Aspirant\Aspirant;
-use App\Models\User\User;
-use App\Repositories\UserRepository;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 use JWTAuth;
 use Validator;
+use App\Result;
+use App\Models\User\User;
+use Illuminate\Http\Request;
+use App\Models\Aspirant\Aspirant;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+use App\Repositories\UserRepository;
+use Illuminate\Support\Facades\File;
+use App\Http\Controllers\API\V1\APIController;
 
 /**
  * User Controller.
@@ -189,9 +192,11 @@ class UserController extends APIController
             $total_results = DB::table("results")->get()->sum("votes");
             $pollings = DB::table('polling')->count();
 
+            $results = Result::with('aspirant')->orderBy('vote_entered_at', 'DESC')->get();
+
             // $recent_incomplete_aspirants = Aspirant::whereStatus(0)->orderBy('due_date', 'desc')->limit(5)->get();
             // return $user = 'Kenya';
-            return response()->json(compact('users_count', 'aspirants_count', 'total_results', 'pollings'));
+            return response()->json(compact('users_count', 'aspirants_count', 'total_results', 'pollings', 'results'));
         } catch (\Exception $ex) {
             Log::error($ex->getMessage());
 

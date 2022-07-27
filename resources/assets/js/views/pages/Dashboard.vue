@@ -208,8 +208,28 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-12"></div>
+                <div>
+                    <h3>Entered Results</h3>
+
+                    <md-field md-clearable class="md-toolbar-section-end">
+                        <v-text-field
+                            dense
+                            outlined
+                            placeholder="Filter..."
+                            v-model="search"
+                            @input="searchOnTable"
+                            clearable
+                            prepend-icon="mdi-filter-variant"
+                        ></v-text-field>
+                    </md-field>
+                    <br />
+                    <v-data-table :headers="headers" :items="searched">
+                        <template v-slot:item.results="{ item }">
+                            <td>
+                                {{ Number(item.votes).toLocaleString() }}
+                            </td>
+                        </template>
+                    </v-data-table>
                 </div>
             </div>
         </div>
@@ -219,12 +239,25 @@
 // import Card from "../../examples/Cards/Card.vue";
 import ActiveUsersChart from "../../examples/Charts/ActiveUsersChart.vue";
 import GradientLineChart from "../../examples/Charts/GradientLineChart.vue";
-// import OrdersCard from "../components/OrdersCard.vue";
-// import ProjectsCard from "../components/ProjectsCard.vue";
-// import US from "../../assets/img/icons/flags/US.png";
-// import DE from "../../assets/img/icons/flags/DE.png";
-// import GB from "../../assets/img/icons/flags/GB.png";
-// import BR from "../../assets/img/icons/flags/BR.png";
+
+const toLower = (text) => {
+    return text.toString().toLowerCase();
+};
+
+const searchByFilter = (items, term) => {
+    if (term) {
+        return items.filter(
+            (item) =>
+                toLower(item.aspirant.full_name).includes(toLower(term)) ||
+                toLower(item.aspirant.electoral_position).includes(
+                    toLower(term)
+                ) ||
+                toLower(item.polling).includes(toLower(term)) ||
+                toLower(item.aspirant.political_party).includes(toLower(term))
+        );
+    }
+    return items;
+};
 
 export default {
     name: "dashboard-default",
@@ -259,6 +292,24 @@ export default {
                     iconClass: "ni ni-cart",
                 },
             },
+            headers: [
+                {
+                    text: "Aspirant Name",
+                    align: "start",
+                    filterable: false,
+                    value: "aspirant.full_name",
+                },
+                { text: "Political party", value: "aspirant.political_party" },
+                {
+                    text: "Electoral_position",
+                    value: "aspirant.electoral_position",
+                },
+                { text: "Polling Station", value: "polling" },
+                { text: "Votes", value: "votes" },
+            ],
+            results: [],
+            search: "",
+            searched: [],
         };
     },
     components: {
@@ -268,12 +319,19 @@ export default {
 
     mounted() {
         axios.get("/electionmonitor/api/v1/user-dashboard").then((response) => {
-        // axios.get("../api/v1/user-dashboard").then((response) => {
+        // axios.get("/api/v1/user-dashboard").then((response) => {
+            this.searched = response.data.results;
+            this.results = response.data.results;
             this.stats.users.value = response.data.users_count;
             this.stats.aspirants.value = response.data.aspirants_count;
             this.stats.results = response.data.total_results;
             this.stats.pollings.value = response.data.pollings;
         });
+    },
+    methods: {
+        searchOnTable() {
+            this.searched = searchByFilter(this.results, this.search);
+        },
     },
 };
 </script>

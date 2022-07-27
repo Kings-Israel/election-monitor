@@ -30,9 +30,7 @@ class AspirantController extends Controller
     public function index(Request $request)
     {
         try {
-
             return $aspirants = DB::select('select * from aspirants');
-
         } catch (\Exception $ex) {
             Log::error($ex->getMessage());
             return response()->json(['message' => 'Sorry, something went wrong!'], 422);

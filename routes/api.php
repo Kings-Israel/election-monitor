@@ -18,6 +18,7 @@ use App\Http\Controllers\Api\V1\AspirantController;
 */
 
 Route::get('/access-token', [AuthController::class, 'accessToken']);
+Route::get('/aspirants', [AspirantController::class, 'index']);
 
 Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], function () {
     Route::group(['prefix' => 'auth'], function () {

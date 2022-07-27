@@ -3,6 +3,7 @@
 namespace App\Models\Aspirant;
 
 use Eloquent;
+use App\Result;
 
 class Aspirant extends Eloquent
 {
@@ -26,4 +27,14 @@ class Aspirant extends Eloquent
      * @var string
      */
     protected $primaryKey = 'id';
+
+    /**
+     * Get all of the results for the Aspirant
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function results()
+    {
+        return $this->hasMany(Result::class, '', 'uuid');
+    }
 }

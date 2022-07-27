@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Models\Aspirant\Aspirant;
 use Illuminate\Database\Eloquent\Model;
 
 class Result extends Model
@@ -26,4 +27,14 @@ class Result extends Model
      * @var array
      */
     protected $guarded = [];
+
+    /**
+     * Get the aspirant that owns the Result
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function aspirant()
+    {
+        return $this->belongsTo(Aspirant::class, 'aspirant_uuid', 'uuid');
+    }
 }
