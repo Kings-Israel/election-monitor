@@ -20,13 +20,6 @@
                             duration="5"
                             easing="Power4.easeOut"/> -->
                             </h2>
-                            <div class="small mt-2" style="color: #fff">
-                                <span class="fw-normal me-2">Last Hour</span>
-                                <span
-                                    class="fas fa-angle-up text-success"
-                                ></span>
-                                <span class="text-success fw-bold">10.57%</span>
-                            </div>
                         </div>
                         <!-- <div class="d-flex ms-auto">
                     <a href="#" class="btn btn-secondary text-dark btn-sm me-2">Month</a>
