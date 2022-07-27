@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use App\Models\Aspirant\Aspirant;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use App\Http\Controllers\Controller;
 use App\Repositories\UserRepository;
 use Illuminate\Support\Facades\File;
 use App\Http\Controllers\API\V1\APIController;
@@ -17,7 +18,7 @@ use App\Http\Controllers\API\V1\APIController;
 /**
  * User Controller.
  */
-class UserController extends APIController
+class UserController extends Controller
 {
     /**
      * $avatar_path.
