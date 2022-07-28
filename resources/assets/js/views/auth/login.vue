@@ -1,28 +1,12 @@
 <template>
     <div>
         <!-- Section -->
-        <section
-            class="vh-lg-100 mt-0 mt-lg-0 bg-soft d-flex align-items-center"
-        >
+        <section class="vh-lg-100 mt-0 mt-lg-0 bg-soft d-flex align-items-center">
             <div class="container" style="margin-top: -150px">
-                <!-- <a href="" class="d-flex align-items-center justify-content-center mb-4">
-                    <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>
-                    Back to homepage
-                </a> -->
-
-                <div
-                    class="row justify-content-center form-bg-image"
-                    data-background-lg=""
-                >
-                    <div
-                        class="col-12 d-flex align-items-center justify-content-center"
-                    >
-                        <div
-                            class="bg-white shadow border-0 rounded p-4 p-lg-5 w-100 fmxw-500"
-                        >
-                            <div
-                                class="text-center text-md-center mb-4 mt-md-0"
-                            >
+                <div class="row justify-content-center form-bg-image" data-background-lg="">
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <div class="bg-white shadow border-0 rounded p-4 p-lg-5 w-100 fmxw-500">
+                            <div class="text-center text-md-center mb-4 mt-md-0">
                                 <div class="avatar avatar-lg mx-auto mb-3">
                                     <svg
                                         width="84"
@@ -57,7 +41,6 @@
                             >
                                 <!-- Form -->
                                 <div class="form-group mb-4">
-                                    <!-- <label for="phone">Your Number</label> -->
                                     <div class="input-group">
                                         <vue-tel-input
                                             v-model="otpForm.phone"
@@ -67,13 +50,6 @@
                                             autofocus
                                             mode="international"
                                         ></vue-tel-input>
-                                        <!-- <input
-                                            v-model="otpForm.phone"
-
-                                            type="number"
-                                            placeholder="Phone number"
-                                            class="form-control"
-                                            id="phone" required> -->
                                     </div>
                                 </div>
                                 <!-- End of Form -->
@@ -87,7 +63,6 @@
                                 </div>
                             </form>
                             <div class="card-body" v-else>
-                                <!-- <p>Enter OTP code sent to <strong>{{ otpForm.phone }} </strong></p> -->
                                 <v-otp-input
                                     v-model="otpForm.otp"
                                     :disabled="loadingOverlay"
@@ -95,11 +70,6 @@
                                     @finish="verifyOtp"
                                 ></v-otp-input>
                                 <v-overlay absolute :value="loadingOverlay">
-                                    <!-- <v-progress-circular
-                                    indeterminate
-                                    color="secondary"
-                                    ></v-progress-circular>
-                                     -->
                                     <div class="lds-ripple">
                                         <div></div>
                                         <div></div>
@@ -256,7 +226,7 @@ export default {
                     } else {
                         setTimeout(() => {
                             notify({
-                                text: "Error encountered!",
+                                text: "OTP has expired",
                                 theme: "red",
                                 position: "top-right",
                             });
@@ -282,11 +252,10 @@ export default {
         resendOTP(number) {
             this.loadingOverlay = true;
             axios
-                .post("../api/v1/auth/two-factor-auth/resend/" + number)
+                .post("/electionmonitor/api/v1/auth/two-factor-auth/resend/" + number)
+                // .post("/api/v1/auth/two-factor-auth/resend/" + number)
                 .then((response) => {
                     setTimeout(() => {
-                        // this.signin()
-                        // console.log(response.data.message)
                         notify({
                             text: response.data.message,
                             theme: "green",

@@ -248,6 +248,11 @@ class AspirantController extends Controller
 
     public function uploadPollingStations(Request $request)
     {
+        $stations = Polling::all();
+        $stations->each(function ($station) {
+            $station->delete();
+        });
+
         $file = $request->file('file');
 
       try {
@@ -291,7 +296,7 @@ class AspirantController extends Controller
             $startcount++;
         }
 
-        return response()->json(['message' => 'Data uploaded successfully'], 200);
+        return response()->json(['message' => 'Data uploaded successfully', 'data' => Polling::count()], 200);
       } catch (Exception $e) {
          return response()->json(['error' => 'An error occurred', 'data' => $e], 422);
       }

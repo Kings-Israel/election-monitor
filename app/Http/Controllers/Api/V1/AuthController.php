@@ -46,7 +46,8 @@ class AuthController extends APIController
         return $access_token;
     }
 
-    public function checkIfUserExists(Request $request) {
+    public function checkIfUserExists(Request $request)
+    {
         $phone = $request->only('phone');
 
         $phone = str_replace(' ', '', $phone);
@@ -97,15 +98,12 @@ class AuthController extends APIController
 
                 curl_close($curl);
 
-                Log::info('OTP code has been sent to', ['Phone' => $phoneOTP, 'Code' => $code]);
                 return response()->json(['data' => $user, 'otp' => $code]);
             } catch (JWTException $e) {
-                Log::error('Error occured while trying to send OTP code to', ['Phone' => $phone]);
                 return response()->json(['message' => 'Error occured while trying to send OTP code to'.$receiverNumber]);
             }
 
         } else {
-            Log::warning('An unregistered user tried to login!');
             return response()->json(['message' => 'User is not registered!']);
         }
     }
@@ -149,8 +147,6 @@ class AuthController extends APIController
 
         $user = DB::table('users')->where('phone', $phone)->get();
 
-        // return $user;
-
         $exists = UserCode::where('user_id', $user[0]->id)
                 ->where('code', $request->only('otp'))
                 ->where('updated_at', '>=', now()->subMinutes(5))
@@ -158,16 +154,12 @@ class AuthController extends APIController
                 ->exists();
 
         if ($exists) {
-            // DB::table('users')
-            // ->where('id', $user->id)
-            // ->update(['status' => 'activated']);
-            Log::info('Valid OTP entered by', ['Phone' => $phone]);
             return response()->json(['message' => 'Success' ,'data' => $user]);
         }
-        Log::error('Invalid OTP entered by', ['Phone' => $phone]);
         return response()->json(['message' => 'Error' ,'data' => 0]);
 
     }
+
     /**
      * resend otp code
      *
@@ -184,24 +176,20 @@ class AuthController extends APIController
             'code' => $code
         ]);
 
-        Log::info('OTP has been sent to phone number!', ['Phone' => $phone]);
         return response()->json(['message' => 'We have resent OTP on your mobile number.']);
     }
-
 
     public function getAuthUser()
     {
         try {
             JWTAuth::parseToken()->authenticate();
         } catch (JWTException $e) {
-            Log::warning('User not authenticated');
             return response()->json(['authenticated' => false], 422);
         }
 
         $user = JWTAuth::parseToken()->authenticate();
         $profile = $user->Profile;
         $social_auth = ($user->password) ? 0 : 1;
-        // Log::info('Authenticated user details found');
         return response()->json(compact('user', 'profile', 'social_auth'));
     }
 
@@ -210,10 +198,8 @@ class AuthController extends APIController
         try {
             JWTAuth::parseToken()->authenticate();
         } catch (JWTException $e) {
-            // Log::warning('User not authenticated');
             return response(['authenticated' => false]);
         }
-        // Log::info('User is authenticated');
         return response(['authenticated' => true]);
     }
 
@@ -230,55 +216,45 @@ class AuthController extends APIController
                 JWTAuth::invalidate($token);
             }
         } catch (JWTException $e) {
-            Log::error($e->getMessage());
-            return response()->json($e->getMessage(), 500);
+           return response()->json($e->getMessage(), 500);
         }
 
-        // return view('auth/game');
-        Log::info('User '.auth()->user()->id.' has successfully logged out');
         return response()->json(['message' => 'You are successfully logged out!']);
     }
 
     public function register(Request $request, Faker $faker)
     {
         try {
+            str_replace(' ', '', request('phone'));
+            $validation = Validator::make($request->all(), [
+                'first_name'            => 'required',
+                'last_name'             => 'required',
+                'phone'                 => 'required|unique:users',
+                'gender'                => 'required',
+            ]);
 
+            if ($validation->fails()) {
+                return response()->json(['message' => $validation->messages()->first()], 422);
+            }
 
-        str_replace(' ', '', request('phone'));
-        $validation = Validator::make($request->all(), [
-            'first_name'            => 'required',
-            'last_name'             => 'required',
-            'phone'                 => 'required|unique:users',
-            'gender'                => 'required',
-            // 'allocated_area'        => 'required',
-            // 'password'              => 'required|min:6',
-            // 'password_confirmation' => 'required|same:password',
-        ]);
+            $user = User::create([
+                'email'    => $faker->unique()->safeEmail,
+                'status'   => 'activated',
+                'password' => bcrypt(request('password')),
+            ]);
 
-        if ($validation->fails()) {
-            return response()->json(['message' => $validation->messages()->first()], 422);
-            // Log::error($e->getMessage());
+            $user->activation_token = Str::uuid()->toString();
+            $user->phone = str_replace(' ', '', request('phone'));
+            $user->first_name = request('first_name');
+            $user->last_name = request('last_name');
+            $user->role = request('role');
+            $user->gender = request('gender');
+            $user->allocated_area = request('allocated_area');
+            $user->save();
+
+            return response()->json(['message' => 'You have registered a user successfully!']);
+        } catch (JWTException $e){
+
         }
-
-        $user = User::create([
-            'email'    => $faker->unique()->safeEmail,
-            'status'   => 'activated',
-            'password' => bcrypt(request('password')),
-        ]);
-
-        $user->activation_token = Str::uuid()->toString();
-        $user->phone = str_replace(' ', '', request('phone'));
-        $user->first_name = request('first_name');
-        $user->last_name = request('last_name');
-        $user->role = request('role');
-        $user->gender = request('gender');
-        $user->allocated_area = request('allocated_area');
-        $user->save();
-
-        Log::info('A user has been registered successfully!');
-        return response()->json(['message' => 'You have registered a user successfully!']);
-    } catch (JWTException $e){
-
-    }
     }
 }
