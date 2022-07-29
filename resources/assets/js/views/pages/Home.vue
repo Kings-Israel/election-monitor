@@ -238,7 +238,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 d-none">
                     <div
                         class="card p-3 mb-2"
                         style="background-color: #040539"
