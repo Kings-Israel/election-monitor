@@ -85,7 +85,7 @@ class AuthController extends APIController
                 CURLOPT_POSTFIELDS =>'{
                     "contact" : "'.$phoneOTP.'",
                     "message" : '.$code.',
-                    "callback" : "https://....",
+                    "callback" : "https://deveintapps.com",
                     "sender_name" : "BADILISHA"
                 }',
                 CURLOPT_HTTPHEADER => array(

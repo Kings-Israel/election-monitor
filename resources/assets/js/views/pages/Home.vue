@@ -396,7 +396,6 @@ export default {
                     axios.get('http://172.104.245.14/electionmonitor/api/v1/polling-fetch/'+ decodeURI(area[0]))
                     // axios.get("/api/v1/polling-fetch/" + decodeURI(area[0]))
                         .then((response) => {
-                            console.log(response.data.data[0])
                             this.pollingDetails.ward_name = response.data.data[0].ward_name.toLowerCase();
                             this.pollingDetails.county_name = response.data.data[0].county_name.toLowerCase();
                             this.pollingDetails.constituency_name = response.data.data[0].constituency_name.toLowerCase();
