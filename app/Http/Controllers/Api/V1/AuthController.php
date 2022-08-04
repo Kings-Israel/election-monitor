@@ -89,12 +89,13 @@ class AuthController extends APIController
                     "sender_name" : "BADILISHA"
                 }',
                 CURLOPT_HTTPHEADER => array(
-                    'Authorization: Bearer '.$token->access_token.'',
+                    'Authorization: Bearer '.substr(json_encode($token->access_token), 1, -1).'',
                     'Content-Type: application/json'
                 ),
                 ));
 
                 $response = curl_exec($curl);
+                info($response);
 
                 curl_close($curl);
 
