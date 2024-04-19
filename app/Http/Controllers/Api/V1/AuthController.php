@@ -46,6 +46,44 @@ class AuthController extends APIController
         return $access_token;
     }
 
+    public function sendOTPTest(Request $request)
+    {
+        $code = mt_rand(1000, 9999);
+        $token = $this->accessToken();
+
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+        CURLOPT_URL => 'https://swift.jambopay.co.ke/api/public/send',
+        //   CURLOPT_URL => 'https://prsp.jambopay.co.ke/api/api/org/disburseSingleSms/',
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => '',
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => 'POST',
+        CURLOPT_POSTFIELDS =>'{
+            "contact" : "'.$request->phone.'",
+            "message" : '.$code.',
+            "callback" : "https://deveintapps.com",
+            "sender_name" : "BADILISHA"
+        }',
+        CURLOPT_HTTPHEADER => array(
+            'Authorization: Bearer '.substr(json_encode($token->access_token), 1, -1).'',
+            'Content-Type: application/json'
+        ),
+        ));
+
+        $response = curl_exec($curl);
+        info($response);
+
+        curl_close($curl);
+
+        return response()->json(['data' => $response]);
+
+    }
+
     public function checkIfUserExists(Request $request)
     {
         $phone = $request->only('phone');
